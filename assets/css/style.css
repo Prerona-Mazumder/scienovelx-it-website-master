@@ -2865,23 +2865,23 @@ img {
   border-radius: 10px;
 }
 .clients-content .content {
-  padding-left: 110px;
+  padding-left: 0px;
   position: relative;
   margin-bottom: 30px;
 }
 .clients-content .content img {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   border-radius: 50%;
   width: unset !important;
-  width: 85px !important;
-  height: 85px !important;
+  width: 100px !important;
+  height: 100px !important;
 }
 .clients-content .content i {
-  position: absolute;
+  position: relative;
   bottom: -10px;
-  left: 60px;
+  left: 0px;
   border-radius: 50px;
   width: 35px;
   height: 35px;
