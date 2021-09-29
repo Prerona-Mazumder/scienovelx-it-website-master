@@ -109,7 +109,7 @@ img {
   display: block;
 }
 .section-title h2 {
-  font-size: 35px;
+  font-size: 47px;
   font-weight: 600;
   margin-top: 0;
   line-height: 1.2;
@@ -1009,6 +1009,15 @@ img {
   font-weight: 400;
   max-width: 660px;
   margin-bottom: 35px;
+}
+
+.banner-item-content p a {
+ color: white;
+}
+
+.banner-item-content p a:hover {
+  color: #ffc221;
+  text-shadow: 0 0 10px #ffc221;
 }
 .item-bg1 {
   background-image: url(../images/home-one/home-one-img1.jpg);
@@ -2269,15 +2278,17 @@ img {
   padding: 50px 0;
 }
 .call-contact h3 {
-  font-size: 22px;
+  font-size: 18px;
   color: #ffc221;
   margin-bottom: 5px;
+  margin-left: 180px;
 }
 .call-contact .call-btn {
   font-size: 35px;
   color: #fff;
   margin-bottom: 15px;
   font-weight: 600;
+  margin-left: 70px;
 }
 .call-contact .call-btn:hover {
   color: #ffc221;
@@ -2554,6 +2565,31 @@ img {
   margin-bottom: 30px;
   margin-top: 30px;
 }
+
+/*
+<div class="list">
+  <div class="vege"></div>
+  <div class="fruit"></div>
+</div>
+
+.fruit, . vege{
+  
+}
+
+.list{
+  color:#6666;
+}
+.list > .div1 >.div2 >.div3{}
+
+
+
+*/
+
+
+
+
+
+
 .case-play-btn::before {
   content: "";
   position: absolute;
@@ -2780,7 +2816,7 @@ img {
   background-repeat: no-repeat;
 }
 .clients-area .section-title h2 {
-  max-width: 430px;
+  /* max-width: 430px; */
   margin-left: auto;
   margin-right: auto;
   color: #fff;
@@ -2868,6 +2904,7 @@ img {
   padding-left: 0px;
   position: relative;
   margin-bottom: 30px;
+  text-align: center;
 }
 .clients-content .content img {
   position: relative;
@@ -2875,8 +2912,8 @@ img {
   left: 0;
   border-radius: 50%;
   width: unset !important;
-  width: 100px !important;
-  height: 100px !important;
+  width: 90% !important;
+  /* height: 100px !important; */
 }
 .clients-content .content i {
   position: relative;
@@ -4552,5 +4589,10 @@ img {
   100% {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
+  }
+}
+@media only screen and (max-width: 990px) {
+  .side-nav-responsive .container-max .container {
+    max-width: 320px ;
   }
 }

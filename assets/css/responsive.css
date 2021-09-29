@@ -1462,3 +1462,14 @@
     margin-right: 0;
   }
 }
+.welc{
+  display: block;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 1.85rem;
+    text-align: center;
+}
+.welc i{
+  color: rgb(240, 172, 45);
+  font-size: 2.2rem;
+}
