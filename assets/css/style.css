@@ -1790,7 +1790,7 @@ img {
   margin-bottom: 0;
 }
 .work-process-area .section-title h2 {
-  max-width: 550px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -4595,4 +4595,19 @@ img {
   .side-nav-responsive .container-max .container {
     max-width: 320px ;
   }
+}
+
+
+
+.award-item:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.award-img{
+  width:70%;
+  border-radius: 50%;
 }
