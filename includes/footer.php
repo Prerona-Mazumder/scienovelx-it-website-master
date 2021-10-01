@@ -141,7 +141,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="footer-widget">
                             <h3>Newsletter</h3>
-                            <p>Subscribe to get the latest updates.</p>
+                            <p>Stay up to date with our latest news.</p>
                             <div class="newsletter-area">
                                 <form class="newsletter-form" data-toggle="validator" method="POST">
                                     <input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL"

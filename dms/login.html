@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+		<script type="text/javascript">
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/5e84805f69e9320caabf2e06/1e4qpjgc5';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+            })();
+            </script>
+        <style>
+            .container-fluid {
+                height: 55%;
+            }
+
+            .form-container {
+                background: #fff;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px 0px #000;
+            }
+
+            .row {
+                padding-top: 10px;
+            }
+
+            .bg {
+                background: skyblue;
+            }
+
+            .bg2 {
+                background: white;
+            }
+            .bg3 {
+                background: #030a5c;
+            }
+            .bg-yellow {
+                background: white;
+            }
+            .logo {
+                height: auto;
+                width: 300px;
+                padding: 20px;
+            }
+
+            .brand {
+                height: auto;
+                width: 300px;
+                padding: 20px;
+            }
+
+            .footer {
+                width: 100%;
+                height: 100px;
+                background: skyblue;
+                color: #696969;
+                padding-top: 40px;
+                text-align: center;
+                font-weight: bold;
+            }
+            .footer-top {
+                width: 100%;
+                height: 100px;
+                background: #E0E1DF;
+                color: #696969;
+                padding-top: 40px;
+                text-align: center;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container-fluid bg">
+            <div class="d-flex justify-content-around flex-nowrap">
+                <img
+                    class="logo col-md-2  justify-content-md-center"
+                    src="images/logo.png"
+                />
+                <img
+                    class="brand col-md-2  d-none d-md-block"
+                    src="images/brand.svg"
+                />
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 ">
+                    <form id="loginform" class="form-container">
+                        <div
+                            id="alertbox"
+                            style="display: none;"
+                            class="alert"
+                            role="alert"
+                        ></div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Enter email"
+                                id="email"
+                                required
+                            />
+                        </div>
+                        <div class="form-group ">
+                            <label for="pwd">Password:</label>
+                            <input
+                                type="password"
+                                class="form-control"
+                                placeholder="Enter password"
+                                id="password"
+                                required
+                            />
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                />
+                                Remember me
+                            </label>
+                            <br />
+                        </div>
+                        <a href="recover.html">Forgot Password Click here</a>
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary btn-block"
+                            style="margin-top: 1.2em;"
+                        >
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-yellow p-4">
+            <div class="d-flex flex-column  text-center  ">
+                <h1 style="padding:50px">Login problem? Sign up first<br /></h1>
+                <a
+                    href="signup.html"
+                    class="btn btn-dark btn-lg ml-auto mr-auto bg3  col-sm-4"
+                    role="button"
+                    >Sign up</a
+                >
+            </div>
+        </div>
+        
+            <div class="footer-top"><h4>KEEP INTEGRITY, COMMITMENT & INNOVATION</h4></div>
+        
+            <div class="footer">CREATED BY #You Are Awesome</div>
+        
+
+        <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+
+        <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+        <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js"></script>
+
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-database.js"></script>
+
+        <script src="js/login.js"></script>
+    </body>
+</html>

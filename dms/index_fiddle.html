@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="device-width,user-scalable=no">
+<title>Piano</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	    
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+	<style>
+	
+	#p{
+	
+	width:80%;
+	
+	
+	}
+	
+	</style>
+	
+	
+	
+	<script>
+		var rmv=0;
+		
+	if(screen.width<800)
+	{
+		
+	
+		alert('Switch to Landscape mode for better experience');
+	}
+ 		var audio_f3,audio_g3,audio_a3,audio_b3,
+ 		audio_c4,audio_d4,audio_e4,audio_f4,audio_g4,audio_a4,audio_b4,
+		audio_c5,audio_d5,audio_e5,audio_f5,audio_g5,audio_a5,audio_b5;
+
+		var audio_f3s,audio_g3s,audio_a3s,
+		audio_c4s,audio_d4s,audio_f4s,audio_g4s,audio_a4s,
+		audio_c5s,audio_d5s,audio_f5s,audio_g5s,audio_a5s;
+
+ 	//load
+	 	audio_f3= new Audio('sound/f3.mp3');
+		audio_f3.preload='auto';
+
+		audio_g3= new Audio('sound/g3.mp3');
+		audio_g3.preload='auto';
+
+		audio_a3= new Audio('sound/a3.mp3');
+		audio_a3.preload='auto';
+		
+		audio_b3= new Audio('sound/b3.mp3');
+		audio_b3.preload='auto';
+
+		audio_c4= new Audio('sound/c4.mp3');
+		audio_c4.preload='auto';
+
+		audio_d4= new Audio('sound/d4.mp3');
+		audio_d4.preload='auto';
+
+		audio_e4= new Audio('sound/e4.mp3');
+		audio_e4.preload='auto';
+
+		audio_f4= new Audio('sound/f4.mp3');
+		audio_f4.preload='auto';
+
+		audio_g4= new Audio('sound/g4.mp3');
+		audio_g4.preload='auto';
+
+		audio_a4= new Audio('sound/a4.mp3');
+		audio_a4.preload='auto';
+
+		audio_b4= new Audio('sound/b4.mp3');
+		audio_b4.preload='auto';
+
+		audio_c5= new Audio('sound/c5.mp3');
+		audio_c5.preload='auto';
+
+		audio_d5= new Audio('sound/d5.mp3');
+		audio_d5.preload='auto';
+
+		audio_e5= new Audio('sound/e5.mp3');
+		audio_e5.preload='auto';
+
+		audio_f5= new Audio('sound/f5.mp3');
+		audio_f5.preload='auto';
+
+		audio_g5= new Audio('sound/g5.mp3');
+		audio_g5.preload='auto';
+
+
+		audio_a5= new Audio('sound/a5.mp3');
+		audio_a5.preload='auto';
+
+		audio_b5= new Audio('sound/b5.mp3');
+		audio_b5.preload='auto';
+
+		//sharps
+	 
+		audio_f3s= new Audio('sound/f3s.mp3');
+		audio_f3s.preload='auto';
+
+
+		audio_g3s= new Audio('sound/g3s.mp3');
+		audio_g3s.preload='auto';
+
+		audio_a3s= new Audio('sound/a3s.mp3');
+		audio_a3s.preload='auto';
+
+		audio_c4s= new Audio('sound/c4s.mp3');
+		audio_c4s.preload='auto';
+
+		audio_d4s= new Audio('sound/d4s.mp3');
+		audio_d4s.preload='auto';
+
+		audio_f4s= new Audio('sound/f4s.mp3');
+		audio_f4s.preload='auto';
+	
+		audio_g4s= new Audio('sound/g4s.mp3');
+		audio_g4s.preload='auto';
+
+		audio_a4s= new Audio('sound/a4s.mp3');
+		audio_a4s.preload='auto';
+	
+	
+		audio_c5s= new Audio('sound/c5s.mp3');
+		audio_c5s.preload='auto';
+
+		audio_d5s= new Audio('sound/d5s.mp3');
+		audio_d5s.preload='auto';
+
+		audio_f5s= new Audio('sound/f5s.mp3');
+		audio_f5s.preload='auto';
+	
+		audio_g5s= new Audio('sound/g5s.mp3');
+		audio_g5s.preload='auto';
+
+		audio_a5s= new Audio('sound/a5s.mp3');
+		audio_a5s.preload='auto';
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	function func_F3()
+	{
+		func_anim(document.getElementsByClassName("cls-1")[0]);
+		audio_f3= new Audio('sound/f3.mp3');
+		audio_f3.preload='auto';
+		audio_f3.play();
+	
+	//alert(audio_f3.duration());
+	//alert('working');
+	}
+	
+	function func_G3()
+	{
+		func_anim(document.getElementsByClassName("cls-2")[0]);
+		audio_g3= new Audio('sound/g3.mp3');
+		audio_g3.preload='auto';
+		audio_g3.play();
+	//alert('working');
+	}
+	
+	function func_A3()
+	{
+		func_anim(document.getElementsByClassName("cls-3")[0]);
+		audio_a3= new Audio('sound/a3.mp3');
+		audio_a3.preload='auto';
+		audio_a3.play();
+	//alert('working');
+	}
+	
+	function func_B3()
+	{
+		func_anim(document.getElementsByClassName("cls-4")[0]);
+	 	audio_b3= new Audio('sound/b3.mp3');
+	 	audio_b3.preload='auto';
+		audio_b3.play();
+	//alert('working');
+	}
+	
+	
+	
+	
+	function func_C4()
+	{
+		//func_anim();
+		func_anim(document.getElementsByClassName("cls-8")[0]);
+		audio_c4= new Audio('sound/c4.mp3');
+		audio_c4.preload='auto';
+		audio_c4.play();
+	//alert('working');
+	}
+	
+	function func_D4()
+	{ 
+		func_anim(document.getElementsByClassName("cls-9")[0]);
+	
+		audio_d4= new Audio('sound/d4.mp3');
+		audio_d4.preload='auto';
+		audio_d4.play();
+	//alert('working');
+	}
+	
+	function func_E4()
+	{
+		func_anim(document.getElementsByClassName("cls-10")[0]);
+		audio_e4= new Audio('sound/e4.mp3');
+		audio_e4.preload='auto';
+		audio_e4.play();
+	//alert('working');
+	}
+	
+	function func_F4()
+	{func_anim(document.getElementsByClassName("cls-11")[0]);
+	audio_f4= new Audio('sound/f4.mp3');
+		audio_f4.preload='auto';
+		audio_f4.play();
+	//alert('working');
+	}
+	
+	function func_G4()
+	{func_anim(document.getElementsByClassName("cls-12")[0]);
+	audio_g4= new Audio('sound/g4.mp3');
+		audio_g4.preload='auto';
+		audio_g4.play();
+	//alert('working');
+	}
+	
+	function func_A4()
+	{
+		func_anim(document.getElementsByClassName("cls-13")[0]);
+		audio_a4= new Audio('sound/a4.mp3');
+		audio_a4.preload='auto';
+		audio_a4.play();
+	//alert('working');
+	}
+	
+	function func_B4()
+	{
+		func_anim(document.getElementsByClassName("cls-14")[0]);
+		audio_b4= new Audio('sound/b4.mp3');
+		audio_b4.preload='auto';
+		audio_b4.play();
+	//alert('working');
+	}
+	
+	function func_C5()
+	{
+		func_anim(document.getElementsByClassName("cls-20")[0]);
+		audio_c5= new Audio('sound/c5.mp3');
+		audio_c5.preload='auto';
+		audio_c5.play();
+	//alert('working');
+	}
+	
+	function func_D5()
+	{
+		func_anim(document.getElementsByClassName("cls-21")[0]);
+		audio_d5= new Audio('sound/d5.mp3');
+		audio_d5.preload='auto';
+		audio_d5.play();
+	//alert('working');
+	}
+	
+	function func_E5()
+	{
+		func_anim(document.getElementsByClassName("cls-22")[0]);
+		audio_e5= new Audio('sound/e5.mp3');
+		audio_e5.preload='auto';
+		audio_e5.play();
+	//alert('working');
+	}
+	
+	function func_F5()
+	{
+		func_anim(document.getElementsByClassName("cls-23")[0]);
+		audio_f5= new Audio('sound/f5.mp3');
+		audio_f5.preload='auto';
+		audio_f5.play();
+	//alert('working');
+	}
+	
+	function func_G5()
+	{
+		func_anim(document.getElementsByClassName("cls-24")[0]);
+		audio_g5= new Audio('sound/g5.mp3');
+		audio_g5.preload='auto';
+		audio_g5.play();
+	//alert('working');
+	}
+	
+	function func_A5()
+	{
+		func_anim(document.getElementsByClassName("cls-25")[0]);
+		audio_a5= new Audio('sound/a5.mp3');
+		audio_a5.preload='auto';
+		audio_a5.play();
+	//alert('working');
+	}
+	
+	function func_B5()
+	{func_anim(document.getElementsByClassName("cls-26")[0]);
+		audio_b5= new Audio('sound/b5.mp3');
+		audio_b5.preload='auto';
+		audio_b5.play();
+	//alert('working');
+	}
+	
+	//sharps
+	function func_F3s()
+	{
+		func_anim(document.getElementsByClassName("cls-5")[0]);
+		audio_f3s= new Audio('sound/f3s.mp3');
+		audio_f3s.preload='auto';
+		audio_f3s.play();
+	//alert('working');
+	}
+	
+	function func_G3s()
+	{
+		func_anim(document.getElementsByClassName("cls-6")[0]);
+		audio_g3s= new Audio('sound/g3s.mp3');
+		audio_g3s.preload='auto';
+		audio_g3s.play();
+	//alert('working');
+	}
+	function func_A3s()
+	{func_anim(document.getElementsByClassName("cls-7")[0]);
+		audio_a3s= new Audio('sound/a3s.mp3');
+		audio_a3s.preload='auto';
+		audio_a3s.play();
+	//alert('working');
+	}
+	
+	function func_C4s()
+	{func_anim(document.getElementsByClassName("cls-15")[0]);
+		audio_c4s= new Audio('sound/c4s.mp3');
+		audio_c4s.preload='auto';
+		audio_c4s.play();
+	//alert('working');
+	}
+	function func_D4s()
+	{
+		func_anim(document.getElementsByClassName("cls-16")[0]);
+		audio_d4s= new Audio('sound/d4s.mp3');
+		audio_d4s.preload='auto';
+		audio_d4s.play();
+	//alert('working');
+	}
+	function func_F4s()
+	{
+		func_anim(document.getElementsByClassName("cls-17")[0]);
+		audio_f4s= new Audio('sound/f4s.mp3');
+		audio_f4s.preload='auto';
+		audio_f4s.play();
+	//alert('working');
+	}
+	function func_G4s()
+	{
+		func_anim(document.getElementsByClassName("cls-18")[0]);
+		audio_g4s= new Audio('sound/g4s.mp3');
+		audio_g4s.preload='auto';
+		audio_g4s.play();
+	//alert('working');
+	}
+	function func_A4s()
+	{
+		func_anim(document.getElementsByClassName("cls-19")[0]);
+		audio_a4s= new Audio('sound/a4s.mp3');
+		audio_a4s.preload='auto';
+		audio_a4s.play();
+	//alert('working');
+	}
+	
+	
+	function func_C5s()
+	{func_anim(document.getElementsByClassName("cls-27")[0]);
+		audio_c5s= new Audio('sound/c5s.mp3');
+		audio_c5s.preload='auto';
+		audio_c5s.play();
+	//alert('working');
+	}
+	function func_D5s()
+	{func_anim(document.getElementsByClassName("cls-28")[0]);
+		audio_d5s= new Audio('sound/d5s.mp3');
+		audio_d5s.preload='auto';
+		audio_d5s.play();
+	//alert('working');
+	}
+	function func_F5s()
+	{func_anim(document.getElementsByClassName("cls-29")[0]);
+		audio_f5s= new Audio('sound/f5s.mp3');
+		audio_f5s.preload='auto';
+		audio_f5s.play();
+	//alert('working');
+	}
+	function func_G5s()
+	{func_anim(document.getElementsByClassName("cls-30")[0]);
+	audio_g5s= new Audio('sound/g5s.mp3');
+		audio_g5s.preload='auto';
+		audio_g5s.play();
+	//alert('working');
+	}
+	function func_A5s()
+	{
+		func_anim(document.getElementsByClassName("cls-31")[0]);
+		audio_a5s= new Audio('sound/a5s.mp3');
+		audio_a5s.preload='auto';
+		audio_a5s.play();
+	//alert('working');
+	}
+	</script>
+	<script>
+	
+
+	function func_anim(hov)
+	{    hov.classList.remove("h");
+		hov.classList.add("kb");
+		hov.addEventListener('touchend',
+		function() {
+			event.preventDefault();
+			hov.classList.remove("kb");
+			
+				hov.classList.add("h");
+		});
+		
+		
+		
+
+		document.getElementById('bd').addEventListener('mouseup',
+		function() {
+	
+			hov.classList.remove("kb");
+			
+			hov.classList.add("h");
+		});
+		
+		//hov.classList.add("kb");
+		
+		
+	
+	
+	}
+
+
+
+	//func_anim(document.getElementsByClassName("cls-8")[0]);
+	
+
+
+
+
+	var old_k=0;var count=0;var temp;
+	document.onkeydown= function func1(event){
+	var x= event.keyCode;
+	if(count==0)
+	{ temp=x;
+	}
+	
+	count++;
+	if(old_k!=x)
+	{//alert(x);
+		
+	  
+	  old_k=x;
+	if(x==81)
+	{
+	func_C4();
+	//func_anim(document.getElementsByClassName("cls-8")[0]);
+	}
+	if(x==87)
+	{
+	func_D4();
+	//func_anim(document.getElementsByClassName("cls-9")[0]);
+	}
+	if(x==69)//e
+	{func_E4();
+		//func_anim(document.getElementsByClassName("cls-10")[0]);
+	}
+	if(x==82)//r
+	{func_F4();
+		//func_anim(document.getElementsByClassName("cls-11")[0]);
+	}
+	if(x==84)//t
+	{func_G4();
+		//func_anim(document.getElementsByClassName("cls-11")[0]);
+	}
+	if(x==89)//y
+	func_A4();
+	if(x==85)//u
+	func_B4();
+	if(x==73)//i
+	func_C5();
+	if(x==79)//o
+	func_D5();
+	if(x==80)//p
+	func_E5();
+	if(x==90)//z
+	func_F5();
+	if(x==88)//x
+	func_G5();
+	if(x==67)//c
+	func_A5();
+	if(x==86)//v
+	func_B5();
+	//sharps
+	if(x==50)//2
+	func_C4s();
+	if(x==51)//3
+	func_D4s();
+	if(x==53)//5
+	func_F4s();
+	if(x==54)//6
+	func_G4s();
+	if(x==55)//7
+	func_A4s();
+	//nxt octave
+	if(x==57)//9
+	func_C5s();
+	if(x==48)//0
+	func_D5s();
+	if(x==83)//s
+	func_F5s();
+	if(x==68)//d
+	func_G5s();
+	if(x==70)//f
+	func_A5s();
+	}
+	
+	//document.onkeydown=null;
+		
+	
+	};
+	
+	document.onkeyup=function (event){
+		//alert('okay');
+		//x= event.keyCode;
+		
+			if(true)
+			{old_k=0;
+			//alert('hello');
+			count=0;
+			
+			//document.onkeydown=function (event){ alert('hello');
+			}
+			
+		}
+	
+	</script>
+</head>
+	<body id="bd">
+	
+	<div class="container-fluid">
+			<div class=" d-flex justify-content-between">
+					<img src="images/logo.svg"style="width:7%;margin-top:20px;">
+				
+				<img src="images/fiddle.svg"style="width:30%;padding-top:20px;">
+				<div style="height: 35px;width: 80px;border-radius:4px;font-size:20px;color:white;text-align:center; background:black;margin-top:20px;font-weight: bold;padding-top: 2px;">V.0.0</div>
+			
+			</div>
+				<div class=" d-flex justify-content-center">
+						<div class="h3" style="padding-top: 10px;">It's Easier Than You Think</div>
+				</div>
+			<div class=" d-flex justify-content-center " style="padding-top:70px;">
+	<svg id="p" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 703 181.63">
+	<defs>
+		<style>
+		@media (hover:hover)
+	{
+		.h:hover
+		{fill:#a6d2ff;
+		
+		}
+	}
+		.cls-1{fill:url(#linear-gradient);}
+		.cls-2{fill:url(#linear-gradient-2);}
+		.cls-3{fill:url(#linear-gradient-3);}
+		.cls-4{fill:url(#linear-gradient-4);}
+		.cls-5{fill:url(#linear-gradient-5);}
+		.cls-6{fill:url(#linear-gradient-6);}
+		.cls-7{fill:url(#linear-gradient-7);}
+		.cls-8{fill:url(#linear-gradient-8);}
+		.cls-9{fill:url(#linear-gradient-9);}
+		.cls-10{fill:url(#linear-gradient-10);}
+		.cls-11{fill:url(#linear-gradient-11);}
+		.cls-12{fill:url(#linear-gradient-12);}
+		.cls-13{fill:url(#linear-gradient-13);}
+		.cls-14{fill:url(#linear-gradient-14);}
+		.cls-15{fill:url(#linear-gradient-15);}
+		.cls-16{fill:url(#linear-gradient-16);}
+		.cls-17{fill:url(#linear-gradient-17);}
+		.cls-18{fill:url(#linear-gradient-18);}
+		.cls-19{fill:url(#linear-gradient-19);}
+		.cls-20{fill:url(#linear-gradient-20);}
+		.cls-21{fill:url(#linear-gradient-21);}
+		.cls-22{fill:url(#linear-gradient-22);}
+		.cls-23{fill:url(#linear-gradient-23);}
+		.cls-24{fill:url(#linear-gradient-24);}
+		.cls-25{fill:url(#linear-gradient-25);}
+		.cls-26{fill:url(#linear-gradient-26);}
+		.cls-27{fill:url(#linear-gradient-27);}
+		.cls-28{fill:url(#linear-gradient-28);}
+		.cls-29{fill:url(#linear-gradient-29);}
+		.cls-30{fill:url(#linear-gradient-30);}
+		.cls-31{fill:url(#linear-gradient-31);}
+		
+		.kb
+		{fill:#6dbdf2;
+		}
+		</style>
+		<linearGradient id="linear-gradient" x1="0.5" y1="93.63" x2="39.5" y2="93.63" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#f2f2f2"/></linearGradient>
+		<linearGradient id="linear-gradient-2" x1="39.5" y1="93.63" x2="78.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-3" x1="78.5" y1="93.63" x2="117.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-4" x1="117.5" y1="93.63" x2="156.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-5" x1="25.5" y1="46.5" x2="54.5" y2="46.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="gray"/><stop offset="1"/></linearGradient>
+		<linearGradient id="linear-gradient-6" x1="64.5" x2="93.5" xlink:href="#linear-gradient-5"/>
+		<linearGradient id="linear-gradient-7" x1="103.5" x2="132.5" xlink:href="#linear-gradient-5"/>
+		<linearGradient id="linear-gradient-8" x1="136.6" y1="96.13" x2="198.33" y2="92.21" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f2f2f2"/><stop offset="0.24" stop-color="#e9e9e9"/><stop offset="0.64" stop-color="#cfcfcf"/><stop offset="0.99" stop-color="#b3b3b3"/></linearGradient>
+		<linearGradient id="linear-gradient-9" x1="195.5" y1="93.63" x2="234.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-10" x1="234.5" y1="93.63" x2="273.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-11" x1="273.5" y1="93.63" x2="312.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-12" x1="312.5" y1="93.63" x2="351.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-13" x1="351.5" y1="93.63" x2="390.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-14" x1="390.5" y1="93.63" x2="429.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-15" x1="180.5" x2="209.5" xlink:href="#linear-gradient-5"/>
+		<linearGradient id="linear-gradient-16" x1="219.5" x2="248.5" xlink:href="#linear-gradient-5"/>
+		<linearGradient id="linear-gradient-17" x1="298.5" x2="327.5" xlink:href="#linear-gradient-5"/>
+		<linearGradient id="linear-gradient-18" x1="337.5" x2="366.5" xlink:href="#linear-gradient-5"/>
+		<linearGradient id="linear-gradient-19" x1="376.5" x2="405.5" xlink:href="#linear-gradient-5"/>
+		<linearGradient id="linear-gradient-20" x1="427.91" y1="94.94" x2="474.94" y2="92" xlink:href="#linear-gradient-8"/>
+		<linearGradient id="linear-gradient-21" x1="468.5" y1="93.63" x2="507.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-22" x1="507.5" y1="93.63" x2="546.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-23" x1="546.5" y1="93.63" x2="585.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-24" x1="585.5" y1="93.63" x2="624.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-25" x1="624.5" y1="93.63" x2="663.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-26" x1="663.5" y1="93.63" x2="702.5" y2="93.63" xlink:href="#linear-gradient"/>
+		<linearGradient id="linear-gradient-27" x1="453.5" x2="482.5" xlink:href="#linear-gradient-5"/>
+		<linearGradient id="linear-gradient-28" x1="492.5" x2="521.5" xlink:href="#linear-gradient-5"/>
+		<linearGradient id="linear-gradient-29" x1="571.5" x2="600.5" xlink:href="#linear-gradient-5"/>
+		<linearGradient id="linear-gradient-30" x1="610.5" x2="639.5" xlink:href="#linear-gradient-5"/>
+		<linearGradient id="linear-gradient-31" x1="649.5" x2="678.5" xlink:href="#linear-gradient-5"/></defs>
+		
+		<g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1">
+		<rect ontouchstart="func_F3()" onmousedown="func_F3()" class="cls-1 h" x="0.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/>
+		<path d="M28,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H12a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11H28m0-1H12a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12H28a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_G3()" onmousedown="func_G3()" class="cls-2 h" x="39.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/>
+		<path d="M67,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H51a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11H67m0-1H51a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12H67a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_A3()" onmousedown="func_A3()" class="cls-3 h" x="78.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/>
+		<path d="M106,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H90a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H90a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect  ontouchstart="func_B3()" onmousedown="func_B3()" class="cls-4 h" x="117.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/>
+		<path d="M145,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H129a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H129a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect  ontouchstart="func_F3s()" onmousedown="func_F3s()" class="cls-5 h" x="25.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/>
+		<path d="M43,1A11,11,0,0,1,54,12V81A11,11,0,0,1,43,92H37A11,11,0,0,1,26,81V12A11,11,0,0,1,37,1h6m0-1H37A12,12,0,0,0,25,12V81A12,12,0,0,0,37,93h6A12,12,0,0,0,55,81V12A12,12,0,0,0,43,0Z"/>
+		<rect ontouchstart="func_G3s()" onmousedown="func_G3s()" class="cls-6 h" x="64.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/><path d="M82,1A11,11,0,0,1,93,12V81A11,11,0,0,1,82,92H76A11,11,0,0,1,65,81V12A11,11,0,0,1,76,1h6m0-1H76A12,12,0,0,0,64,12V81A12,12,0,0,0,76,93h6A12,12,0,0,0,94,81V12A12,12,0,0,0,82,0Z"/>
+		<rect ontouchstart="func_A3s()" onmousedown="func_A3s()" class="cls-7 h" x="103.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/><path d="M121,1a11,11,0,0,1,11,11V81a11,11,0,0,1-11,11h-6a11,11,0,0,1-11-11V12A11,11,0,0,1,115,1h6m0-1h-6a12,12,0,0,0-12,12V81a12,12,0,0,0,12,12h6a12,12,0,0,0,12-12V12A12,12,0,0,0,121,0Z"/>
+		<rect  ontouchstart="func_C4()" onmousedown="func_C4()" id="ok" class="cls-8 h" x="156.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M184,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H168a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H168a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_D4()" onmousedown="func_D4()" class="cls-9 h" x="195.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M223,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H207a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H207a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_E4()" onmousedown="func_E4()"class="cls-10 h" x="234.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M262,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H246a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H246a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_F4()" onmousedown="func_F4()" class="cls-11 h" x="273.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M301,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H285a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H285a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_G4()" onmousedown="func_G4()" class="cls-12 h" x="312.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M340,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H324a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H324a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect  ontouchstart="func_A4()" onmousedown="func_A4()" class="cls-13 h" x="351.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M379,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H363a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H363a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect  ontouchstart="func_B4()" onmousedown="func_B4()" class="cls-14 h" x="390.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M418,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H402a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H402a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_C4s()" onmousedown="func_C4s()" class="cls-15 h" x="180.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/><path d="M198,1a11,11,0,0,1,11,11V81a11,11,0,0,1-11,11h-6a11,11,0,0,1-11-11V12A11,11,0,0,1,192,1h6m0-1h-6a12,12,0,0,0-12,12V81a12,12,0,0,0,12,12h6a12,12,0,0,0,12-12V12A12,12,0,0,0,198,0Z"/>
+		<rect ontouchstart="func_D4s()" onmousedown="func_D4s()" class="cls-16 h" x="219.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/><path d="M237,1a11,11,0,0,1,11,11V81a11,11,0,0,1-11,11h-6a11,11,0,0,1-11-11V12A11,11,0,0,1,231,1h6m0-1h-6a12,12,0,0,0-12,12V81a12,12,0,0,0,12,12h6a12,12,0,0,0,12-12V12A12,12,0,0,0,237,0Z"/>
+		<rect ontouchstart="func_F4s()" onmousedown="func_F4s()" class="cls-17 h" x="298.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/><path d="M316,1a11,11,0,0,1,11,11V81a11,11,0,0,1-11,11h-6a11,11,0,0,1-11-11V12A11,11,0,0,1,310,1h6m0-1h-6a12,12,0,0,0-12,12V81a12,12,0,0,0,12,12h6a12,12,0,0,0,12-12V12A12,12,0,0,0,316,0Z"/>
+		<rect  ontouchstart="func_G4s()" onmousedown="func_G4s()" class="cls-18 h" x="337.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/><path d="M355,1a11,11,0,0,1,11,11V81a11,11,0,0,1-11,11h-6a11,11,0,0,1-11-11V12A11,11,0,0,1,349,1h6m0-1h-6a12,12,0,0,0-12,12V81a12,12,0,0,0,12,12h6a12,12,0,0,0,12-12V12A12,12,0,0,0,355,0Z"/>
+		<rect ontouchstart="func_A4s()" onmousedown="func_A4s()" class="cls-19 h" x="376.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/><path d="M394,1a11,11,0,0,1,11,11V81a11,11,0,0,1-11,11h-6a11,11,0,0,1-11-11V12A11,11,0,0,1,388,1h6m0-1h-6a12,12,0,0,0-12,12V81a12,12,0,0,0,12,12h6a12,12,0,0,0,12-12V12A12,12,0,0,0,394,0Z"/>
+		<rect ontouchstart="func_C5()" onmousedown="func_C5()" class="cls-20 h" x="429.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M457,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H441a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H441a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_D5()" onmousedown="func_D5()" class="cls-21 h" x="468.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M496,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H480a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H480a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_E5()" onmousedown="func_E5()" class="cls-22 h" x="507.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M535,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H519a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H519a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_F5()" onmousedown="func_F5()" class="cls-23 h" x="546.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M574,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H558a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H558a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_G5()" onmousedown="func_G5()" class="cls-24 h" x="585.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M613,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H597a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H597a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_A5()" onmousedown="func_A5()" class="cls-25 h" x="624.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M652,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H636a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H636a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_B5()" onmousedown="func_B5()" class="cls-26 h" x="663.5" y="6.13" width="39" height="175" rx="11.5" ry="11.5"/><path d="M691,6.63a11,11,0,0,1,11,11v152a11,11,0,0,1-11,11H675a11,11,0,0,1-11-11v-152a11,11,0,0,1,11-11h16m0-1H675a12,12,0,0,0-12,12v152a12,12,0,0,0,12,12h16a12,12,0,0,0,12-12v-152a12,12,0,0,0-12-12Z"/>
+		<rect ontouchstart="func_C5s()" onmousedown="func_C5s()" class="cls-27 h" x="453.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/><path d="M471,1a11,11,0,0,1,11,11V81a11,11,0,0,1-11,11h-6a11,11,0,0,1-11-11V12A11,11,0,0,1,465,1h6m0-1h-6a12,12,0,0,0-12,12V81a12,12,0,0,0,12,12h6a12,12,0,0,0,12-12V12A12,12,0,0,0,471,0Z"/>
+		<rect ontouchstart="func_D5s()" onmousedown="func_D5s()" class="cls-28 h" x="492.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/><path d="M510,1a11,11,0,0,1,11,11V81a11,11,0,0,1-11,11h-6a11,11,0,0,1-11-11V12A11,11,0,0,1,504,1h6m0-1h-6a12,12,0,0,0-12,12V81a12,12,0,0,0,12,12h6a12,12,0,0,0,12-12V12A12,12,0,0,0,510,0Z"/>
+		<rect  ontouchstart="func_F5s()" onmousedown="func_F5s()" class="cls-29 h" x="571.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/><path d="M589,1a11,11,0,0,1,11,11V81a11,11,0,0,1-11,11h-6a11,11,0,0,1-11-11V12A11,11,0,0,1,583,1h6m0-1h-6a12,12,0,0,0-12,12V81a12,12,0,0,0,12,12h6a12,12,0,0,0,12-12V12A12,12,0,0,0,589,0Z"/>
+		<rect ontouchstart="func_G5s()" onmousedown="func_G5s()" class="cls-30 h" x="610.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/><path d="M628,1a11,11,0,0,1,11,11V81a11,11,0,0,1-11,11h-6a11,11,0,0,1-11-11V12A11,11,0,0,1,622,1h6m0-1h-6a12,12,0,0,0-12,12V81a12,12,0,0,0,12,12h6a12,12,0,0,0,12-12V12A12,12,0,0,0,628,0Z"/>
+		<rect ontouchstart="func_A5s()" onmousedown="func_A5s()" class="cls-31 h" x="649.5" y="0.5" width="29" height="92" rx="11.5" ry="11.5"/><path d="M667,1a11,11,0,0,1,11,11V81a11,11,0,0,1-11,11h-6a11,11,0,0,1-11-11V12A11,11,0,0,1,661,1h6m0-1h-6a12,12,0,0,0-12,12V81a12,12,0,0,0,12,12h6a12,12,0,0,0,12-12V12A12,12,0,0,0,667,0Z"/>
+		</g></g></svg>
+	
+	</div>
+	<div id="demo" class="collapse show">
+		<div class="mx-auto" style="width:78%;padding-top: 14px;user-select: none;"><img src="images/keyset.svg">
+		</div>
+	</div>
+	<div class=" d-flex justify-content-between" style="padding-top: 20px;">
+			<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Show/Hide Notes</button>
+		<!-- Button to Open the Modal -->
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#myModal">
+		Quick Tutorial
+	  </button>
+	  
+	  <!-- The Modal -->
+	  <div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+		  <div class="modal-content col-11">
+	  
+			<!-- Modal Header -->
+			<div class="modal-header " style="background: black;border-radius:6px;">
+			  <h4 class="modal-title text-white">Hello! Welcome to Fiddle Piano</h4>
+			  <button type="button " class="close" data-dismiss="modal" style="color:yellow;">&times;</button>
+			</div>
+	  
+			<!-- Modal body -->
+			<div class="modal-body">
+				<div class="h4">Let's Start</div>
+			  To play the piano just <b>click</b> the <b>piano keys</b> with your mouse.
+			  Yes, as easy as that. You can try out the Happy Birthday tune now!!
+			  You can play any tunes of 2 octaves using this piano.
+			  <div class="h5">See Our Tutorial Video here</div>
+			  <a href="https://www.youtube.com/watch?v=5eNZg6bTeBo">Fiddle Piano Video Intro</a>
+			  <br>
+			  <br>
+			  Bonus:  <a href="https://www.youtube.com/watch?v=tNgj_ckyySA">Bela Ciao played in this web app</a>
+			</div>
+	  
+			<!-- Modal footer -->
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+			</div>
+	  
+		  </div>
+		</div>
+	  </div>		
+	</div>
+	
+
+	<div class=" d-flex justify-content-between">
+		<div id="dv" class="col-6" style="left:15%;">
+				<div class="jumbotron  "  style="margin-top:70px;background: #d4efff;" >
+						<button type="button " class="close" onclick="closeIt()"  style="color:black;">&times;</button>
+				
+					<div class="h3">Learn To Play</div>
+						
+					<div class="h1">The Happy Birthday Song</div>
+			<p style="font-size:21px;padding-top: 30px;">
+				
+				
+				C4 C4 D4 C4 F4 E4
+				<br>Happy birthday to you
+				<br>C4 C4 D4 C4 G4 F4
+				<br>Happy birthday to you
+				<br>C4 C4 C5 A4 F4 F4 E4 D4
+				<br>Happy birthday, happy birthday
+				<br>A4# A4# A4 F4 G4 F4
+				<br>Happy birthday to you
+				<br>
+
+				<br># means the upper black key next to the white key <a href="https://www.youtube.com/watch?v=vBewV1odIYU">video?</a>
+			
+			</p>	</div>
+			</div>	
+	
+			<div id="dv2" class="col-4 col-md-4 col-lg-4" style="float:right;">
+					<div class="jumbotron bg-dark text-white"  style="left:75px;margin-top:70px;" >
+											
+						<div class="h3" style="padding-bottom:50px;margin-left: 20px;">Some Recomendations</div>
+						<div class="d-flex justify-content-center" > 
+							<iframe  style="margin-top: 15px;width:90%" src="https://www.youtube.com/embed/tNgj_ckyySA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="d-flex justify-content-center" >
+							<iframe style="margin-top: 15px;width:90%" src="https://www.youtube.com/embed/jU2ggS9EaeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="d-flex justify-content-center" >
+							<iframe style="margin-top: 15px;width:90%" src="https://www.youtube.com/embed/Nix-uD4mnvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="d-flex justify-content-center" >	
+						<iframe style="margin-top: 15px;width:90%" src="https://www.youtube.com/embed/bWp4GKY2pHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					</div>
+				</div>
+				</div>
+
+
+
+			</div>
+<div class="jumbotron" style="height: 250px;width:40%;position:absolute;top:1245px;left:17%;">
+<div class="h3" >Let us know your experience.</div>
+	<div class="h5" >We would love to hear from you the songs you played using this piano
+	</div>
+	<a href="https://forms.gle/8Z4KU3bDiWKXrtqn9"><img src="images/ar2.svg" style="width:14%;margin-top:2%; " ></a>
+</div>
+
+
+	<div class="container-fluid d-flex justify-content-center" style="float:bottom"><img src="images/foot.svg" style="width:48%;padding-bottom:30px;padding-top: 125px; "></div>
+	<a href="https://www.freecounterstat.com" title="web counter"><img src="https://counter3.stat.ovh/private/freecounterstat.php?c=qbbd1ajrp7fz68q664ds2ffma266s1de" border="0" title="web counter" alt="web counter"></a>
+	<script type="text/javascript">
+		function closeIt() {
+			var e = document.getElementById("dv");
+								
+			   e.style.visibility = "hidden";
+		}
+		function closeIt2() {
+			var e = document.getElementById("dv2");
+								
+			   e.style.display = "none";
+		}
+	 </script>
+</body>
+</html>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>
