@@ -28,17 +28,25 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="assets/css/responsive.css">
+
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="icon" type="image/png" href="docs/scienovelxlogo.png">
     <title>ScienovelX - Education and Technology Solutions</title>
 </head>
-<div class="preloader">
+
+<!-- <div class="preloader">
     <div class="d-table">
         <div class="d-table-cell">
-            <div class="spinner"></div>
+            <div class="spinner">
+                <img src="docs/scienovelxlogo.png" alt="">
+            </div>
+
         </div>
     </div>
-</div>
+</div> -->
 
 
 <header class="top-header top-header-bg">

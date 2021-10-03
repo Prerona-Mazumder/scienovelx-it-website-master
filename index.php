@@ -1,6 +1,6 @@
 <?php
 require('includes/header.php');
-
+$page = 'home';
 ?>
 
 <?php
@@ -41,7 +41,9 @@ require('includes/navbar.php');
                             <p>
                                 “Discover your stepping Stone”
                                 </br></br>
-                                <a href="about.php">It all starts here<i style="margin-top: 1rem;" class='bx bxs-right-arrow-circle bx-fade-right bx-sm'></i></a>
+                                <a href="about.php">
+                                    <span style="font-size: 18px;background:transparent !important;color:#fff !important;margin-right: -16px;">It all starts here</span><i class='bx bxs-right-arrow-circle bx-fade-right bx-sm'></i>
+                                </a>
                                 </br></br>
                                 Bringing change and innovation to every aspect of the organization and guarantee
                                 that we convey each drive remarkably with cutting-edge technology. Assisting every
@@ -49,7 +51,7 @@ require('includes/navbar.php');
                                 solutions.
                             </p>
                             <div class="banner-btn">
-                                <a href="about.php" class="default-btn btn-bg-two border-radius-50">Book Free
+                                <a href="#calendy" class="default-btn btn-bg-two border-radius-50">Book Free
                                     Consultation<i class='bx bx-chevron-right'></i></a>
                                 <a href="contact.php" class="default-btn btn-bg-one border-radius-50 ml-20">Watch
                                     Demos Now<i class='bx bx-chevron-right'></i></a>
@@ -67,13 +69,13 @@ require('includes/navbar.php');
                             <span>Only High Quality Services</span>
                             <h1>A Commitment to your Advancement</h1>
                             <p>
-                                SCIENOVELX is the first Ed-eCommerce service that is striving hard to digitalize the
-                                education industry and serve the students by imparting a great deal of knowledge to
-                                them along with Industrial Trainings & workshops
-
+                                As for IT Services, we are now putting a weightage on helping startups,
+                                entrepreneurs, working professionals, individuals, MSMEs, corporates, colleges and
+                                universities with technology services and products including various web services,
+                                internet products,etc.
                             </p>
                             <div class="banner-btn">
-                                <a href="about.php" class="default-btn btn-bg-two border-radius-50">Book Free
+                                <a href="Book.php" class="default-btn btn-bg-two border-radius-50">Book Free
                                     Consultation<i class='bx bx-chevron-right'></i></a>
                                 <a href="contact.php" class="default-btn btn-bg-one border-radius-50 ml-20">Watch
                                     Demos Now<i class='bx bx-chevron-right'></i></a>
@@ -92,10 +94,11 @@ require('includes/navbar.php');
                             <h1>An Innovation hub For Transforming the Education Industry into the next great height
                             </h1>
                             <p>
-                                As for IT Services, we are now putting a weightage on helping startups,
-                                entrepreneurs, working professionals, individuals, MSMEs, corporates, colleges and
-                                universities with technology services and products including various web services,
-                                internet products,etc.
+
+                                SCIENOVELX is the first Ed-eCommerce service that is striving hard to digitalize the
+                                education industry and serve the students by imparting a great deal of knowledge to
+                                them along with Industrial Trainings & workshops.
+
                             </p>
                             <div class="banner-btn">
                                 <a href="about.php" class="default-btn btn-bg-two border-radius-50"><i class='bx bx-chevron-right'></i>New Ed-eCopmmerce System</a>
@@ -110,59 +113,13 @@ require('includes/navbar.php');
 </div>
 
 
-<div class="about-area ptb-100">
-    <div class="container">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-lg-6">
-                <div class="about-content mr-20">
-                    <div class="section-title">
-                        <span class="sp-color2">15 Years of Experience</span>
-                        <h2>Right Partner for Software Innovation</h2>
-                        <p>
-                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-                            sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
-                            accumsan ipsum velit nam nec tellus a odio tincidunt auctor.
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-6">
-                            <div class="about-content-card">
-                                <i class="flaticon-practice"></i>
-                                <h3>Experience</h3>
-                                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-6">
-                            <div class="about-content-card">
-                                <i class="flaticon-help"></i>
-                                <h3>Quick Support</h3>
-                                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="about-img">
-                    <img src="assets/images/about/about-img1.jpg" alt="About Images">
-                    <div class="sub-content">
-                        <img src="assets/images/about/about-img2.jpg" alt="About Images">
-                        <div class="content">
-                            <h3>4.5k</h3>
-                            <span>Satisfied Clients</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <section class="services-area-two pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <span class="sp-color1">Our Services</span>
-            <h2>Solutions that matter for your advancement</h2>
+            <span class="sp-color1">Solutions that matter for your advancement</span>
+            <h2 style="max-width: 773px; font-size: 30px;" }>UNLOCK THE RIGHT SOLUTIONS FOR YOUR
+                BUISNESS NEEDS BY OUR UNIQUE INVENTORSHIP
+                DNA</h2>
         </div>
         <div class="row pt-45">
             <div class="col-lg-4 col-md-6">
@@ -389,7 +346,7 @@ require('includes/navbar.php');
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Numbers Are Talking</span>
-            <h2>Let’s Check Our Business Growth and Success Story</h2>
+            <h2 style="max-width: 600px;">Let’s Check Our Business Growth and Success Story</h2>
             <p>Numbers speaks Louder than words.
             </p>
         </div>
@@ -508,7 +465,7 @@ require('includes/navbar.php');
     <div class="container-fluid p-0">
         <div class="section-title text-center">
             <span class="sp-color2">Case Study</span>
-            <h2>Introduce Our Projects and Check Recent Work </h2>
+            <h2 style="max-width: 600px;">Introduce Our Projects and Check Recent Work </h2>
         </div>
         <div class="case-study-slider owl-carousel owl-theme pt-45">
             <div class="case-study-item">
@@ -598,7 +555,7 @@ require('includes/navbar.php');
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color1">Technology Index</span>
-            <h2>We Deliver Our Best Solution With The Goal of Trusting</h2>
+            <h2 style="max-width: 800px;">We Deliver Our Best Solution With The Goal of Trusting</h2>
         </div>
         <div class="row pt-45">
             <div class="col-lg-2 col-6">
@@ -722,31 +679,32 @@ require('includes/navbar.php');
 
             </div>
         </div>
+
         <!-- <div class="clients-content">
-<div class="content">
-<img src="assets/images/clients-img/clients-img2.jpg" alt="Images">
-<i class='bx bxs-quote-alt-left'></i>
-<h3>Alin Decros</h3>
-<span>Graphic Designer</span>
-</div>
-<p>
-“Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.
-sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi loren accumsan ipsum velit.”
-</p>
-</div>
-<div class="clients-content">
-<div class="content">
-<img src="assets/images/clients-img/clients-img3.jpg" alt="Images">
-<i class='bx bxs-quote-alt-left'></i>
-<h3>Elen Musk</h3>
-<span>Web Developer</span>
-</div>
-<p>
-“Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.
-sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi loren accumsan ipsum velit.”
-</p>
-</div> -->
-        <!-- </div> -->
+            <div class="content">
+                <img src="assets/images/clients-img/clients-img2.jpg" alt="Images">
+                <i class='bx bxs-quote-alt-left'></i>
+                <h3>Alin Decros</h3>
+                <span>Graphic Designer</span>
+            </div>
+            <p>
+                “Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.
+                sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi loren accumsan ipsum velit.”
+            </p>
+        </div>
+        <div class="clients-content">
+            <div class="content">
+                <img src="assets/images/clients-img/clients-img3.jpg" alt="Images">
+                <i class='bx bxs-quote-alt-left'></i>
+                <h3>Elen Musk</h3>
+                <span>Web Developer</span>
+            </div>
+            <p>
+                “Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.
+                sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi loren accumsan ipsum velit.”
+            </p>
+        </div>
+    </div>
     </div>
     <div class="client-circle">
         <div class="client-circle-1">
@@ -770,10 +728,66 @@ sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris
         <div class="client-circle-7">
             <div class="circle"></div>
         </div>
-    </div>
+    </div> -->
 </section>
 
+<div class="about-area ptb-70">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6">
+                <div class="about-content mr-20">
+                    <div class="section-title">
+                        <!-- <span class="sp-color2">15 Years f Experience</span> -->
+                        <h2 class="text-center" style="font-size: 44px !important;">Book a Free Consultation</h2>
+                        <h5 class="text-center" style="color: #0071dc;margin-top: 26px !important;font-size: 30px;text-transform: uppercase;width: 80%;font-weight: 900;margin: auto;letter-spacing: 1px;line-height: 2.7rem;">
+                                When Innovation Finds You, Find Us.</h5>
+                        <!-- <div class="calendly-img">
+                            <img src="assets/images/calendly.png" alt="">
+                        </div> -->
+                        <!-- <p>
+                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+                            sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+                            accumsan ipsum velit nam nec tellus a odio tincidunt auctor.
+                        </p> -->
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col-lg-6 col-6">
+                            <div class="about-content-card">
+                                <i class="flaticon-practice"></i>
+                                <h3>Experience</h3>
+                                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="about-content-card">
+                                <i class="flaticon-help"></i>
+                                <h3>Quick Support</h3>
+                                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
 
+            </div>
+            <div class="col-lg-6" id="calendy" style="box-shadow: 0 0 14px #a0a0a0;border-radius: 12px;">
+                <!-- <div class="about-img">
+                    <img src="assets/images/about/about-img1.jpg" alt="About Images">
+                    <div class="sub-content">
+                        <img src="assets/images/about/about-img2.jpg" alt="About Images">
+                        <div class="content">
+                            <h3>4.5k</h3>
+                            <span>Satisfied Clients</span>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Calendly inline widget begin -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/subhajit-scienovelx/30min" style="min-width:320px;height:630px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                <!-- Calendly inline widget end -->
+            </div>
+        </div>
+    </div>
+</div>
 <!-- <div class="blog-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
@@ -903,6 +917,20 @@ require('includes/footer.php');
 <script src="assets/js/contact-form-script.js"></script>
 
 <script src="assets/js/custom.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll > 300) {
+                $("#navbar").css("height", "80px");
+                $("#logo").css("width", "100px");
+            } else {
+                $("#navbar").css("height", "auto");
+            }
+        })
+    })
+</script>
 </body>
 
 <!-- Mirrored from templates.hibootstrap.com/techex/default/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Jul 2021 11:55:46 GMT -->

@@ -52,7 +52,7 @@
                                 <li>
                                     <a href="compare.html" target="_blank">
                                         <i class='bx bx-chevron-right'></i>
-                                        Logo Graphic Design
+                                        Blockchain solutions
                                     </a>
                                 </li>
                                 <li>

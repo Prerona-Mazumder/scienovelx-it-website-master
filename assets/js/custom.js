@@ -99,6 +99,8 @@
   $(window).on("load", function () {
     $(".preloader").fadeOut(500);
   });
+
+  
   $("body").append(
     "<div class='go-top'><i class='bx bx-chevrons-up'></i></div>"
   );
@@ -110,6 +112,8 @@
   $(".go-top").on("click", function () {
     $("html, body").animate({ scrollTop: "0" }, 50);
   });
+
+
   function makeTimer() {
     var endTime = new Date("December 30, 2021 17:00:00 PDT");
     var endTime = Date.parse(endTime) / 1000;

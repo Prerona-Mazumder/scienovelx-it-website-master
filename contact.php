@@ -1,4 +1,7 @@
-<?php require('includes/header.php'); ?>
+<?php require('includes/header.php');
+
+$page = 'contact';
+?>
 
 <?php
 require('includes/navbar.php');
@@ -124,7 +127,7 @@ require('includes/navbar.php');
                             <div class="col-lg-6">
                                 <div class="form-group">
                                     <label>Phone Number <span>*</span></label>
-                                    <input type="text" name="phone_number" id="phone_number" required data-error="Please Enter Your number" class="form-control" placeholder="Phone Number">
+                                    <input type="text" name="phone_number" id="phone_number" required data-error="Please Enter Your number" class="form-control" placeholder="Phone Number" minlength="10">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>

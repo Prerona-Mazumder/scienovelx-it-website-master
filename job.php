@@ -1,6 +1,6 @@
 <?php
 require('includes/header.php');
-
+$page = 'more';
 ?>
 
 <?php
@@ -52,13 +52,14 @@ require('includes/navbar.php');
 
 <div class="site-section">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 form-group">
-                <img src="images/person_3_sq.jpg" width="400px">
-            </div>
-            <div class="col-md-6 form-group text-black mb-4">
+        <div class="">
+        <div class=" text-black mb-4" style=" text-align: center; width: 100%; display: block;">
                 <h1>Build your future with Scienovelx</h1>
             </div>
+            <div class="form-group" style="text-align: center;">
+                <img src="images/person_3_sq.jpg" width="600px">
+            </div>
+           
         </div>
     </div>
 </div>
@@ -236,7 +237,7 @@ require('includes/footer.php');
 <script src="assets/js/contact-form-script.js"></script>
 
 <script src="assets/js/custom.js"></script>
-<script src="js/jquery-3.3.1.min.js"></script>
+<!-- <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/jquery-migrate-3.0.1.min.js"></script>
 <script src="js/jquery-ui.js"></script>
 <script src="js/popper.min.js"></script>
@@ -249,9 +250,9 @@ require('includes/footer.php');
 <script src="js/aos.js"></script>
 <script src="js/jquery.fancybox.min.js"></script>
 <script src="js/jquery.sticky.js"></script>
-<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script src="js/jquery.mb.YTPlayer.min.js"></script> -->
 <!-- CAPTCHA -->
-<script src="https://www.google.com/recaptcha/api.js?render=6LdJecsZAAAAAG7Y8xN4y9O4XvVH_OiObxv2vyFI"></script>
+<!-- <script src="https://www.google.com/recaptcha/api.js?render=6LdJecsZAAAAAG7Y8xN4y9O4XvVH_OiObxv2vyFI"></script> -->
 
 </body>
 

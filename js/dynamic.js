@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', (e) => {
 	let carouselContainer = document.getElementById('carousel');
 	if (carouselContainer) {
 		axios
-			.get('https://www.admin.learnbird.in/fetch/carousels')
+			.get('https://www.admin.Scienovelx.in/fetch/carousels')
 			.then((res) => {
 				// console.log(res.data.data);
 				for (let item of res.data.data) {
@@ -71,7 +71,7 @@ window.addEventListener('DOMContentLoaded', (e) => {
 	let featureContainerMobile = document.getElementById('features-mobile');
 	if (featureContainer && featureContainerMobile) {
 		axios
-			.get('https://www.admin.learnbird.in/fetch/features')
+			.get('https://www.admin.Scienovelx.in/fetch/features')
 			.then((res) => {
 				for (let item of res.data.data) {
 					featureContainer.innerHTML += `<div class="swiper-slide feature-slide">
@@ -131,7 +131,7 @@ window.addEventListener('DOMContentLoaded', (e) => {
 	// console.log(teamContainer);
 	if (teamContainer) {
 		axios
-			.get('https://www.admin.learnbird.in/fetch/teammembers')
+			.get('https://www.admin.Scienovelx.in/fetch/teammembers')
 			.then((res) => {
 				// console.log(res.data.data);
 				for (let item of res.data.data) {

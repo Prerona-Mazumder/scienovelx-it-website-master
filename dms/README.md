@@ -1,2 +1,2 @@
-# learnbird
+# Scienovelx
 an edtech website

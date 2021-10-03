@@ -1,5 +1,6 @@
 <?php
 require('includes/header.php');
+$page = "about";
 ?>
 
 
@@ -158,58 +159,151 @@ require('includes/navbar.php');
 <div class="security-area pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <span class="sp-color2">IT Security & Computing</span>
-            <h2>Searching for a Solution! We Provide Truly Prominent IT Solutions</h2>
+            <!-- <span class="sp-color2">IT Security & Computing</span> -->
+            <h2>Our Core Values</h2>
         </div>
         <div class="row pt-45">
             <div class="col-lg-4 col-sm-6">
-                <div class="security-card">
+                <div class="security-card" style="    height: 334px !important;">
                     <i class="flaticon-cyber-security"></i>
-                    <h3><a href="case-details.html">Business Security</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit scelerisque
-                        ullamcorper proin scelerisque tortor odio.</p>
+                    <h3><a href="case-details.html">Quality</a></h3>
+                    <p>We always focus on quality because we believe that everything can be improved.
+                        From user experience to development, quality is the foundation on which success is built. Through
+                        this, we always provide the best quality to clients and students.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="security-card">
+                <div class="security-card" style="    height: 334px !important;">
                     <i class="flaticon-computer"></i>
-                    <h3><a href="case-details.html">Manage IT Service</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit scelerisque
-                        ullamcorper proin scelerisque tortor odio.</p>
+                    <h3><a href="case-details.html">Passion</a></h3>
+                    <p>We believe that passion is the power of every successful journey. Everything we do
+                        in SCIENOVELX we do with passion.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="security-card">
+                <div class="security-card" style="    height: 334px !important;">
                     <i class="flaticon-effective"></i>
-                    <h3><a href="case-details.html">Product Analysis</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit scelerisque
-                        ullamcorper proin scelerisque tortor odio.</p>
+                    <h3><a href="case-details.html">Integrity</a></h3>
+                    <p>Integrity is a very important asset for us. So we always make every decision with
+                        integrity and this culture is established in our whole team</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="security-card">
+                <div class="security-card" style="    height: 334px !important;">
                     <i class="flaticon-implement"></i>
-                    <h3><a href="case-details.html">Analytic Solution</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit scelerisque
-                        ullamcorper proin scelerisque tortor odio.</p>
+                    <h3><a href="case-details.html">Entrepreneurial Spirit</a></h3>
+                    <p>SCIENOVELX thrives on a spirit of entrepreneurship and a
+                        passion for discovery. We are always inspired by the challenges of solving and simplifying complex
+                        problems, including innovative solutions. We teach our team to think big and innovatively</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="security-card">
+                <div class="security-card" style="    height: 334px !important;">
                     <i class="flaticon-consulting"></i>
-                    <h3><a href="case-details.html">Finest Quality</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit scelerisque
-                        ullamcorper proin scelerisque tortor odio.</p>
+                    <h3><a href="case-details.html">Respect</a></h3>
+                    <p>Respect is one of the important elements of a successful journey. We always
+                        encourage people to learn new things, apply them, and respect the thoughts and contributions of all
+                        our members as well as our customers.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="security-card" style="    height: 334px !important;">
+                    <i class="flaticon-consultant"></i>
+                    <h3><a href="case-details.html">Responsibility</a></h3>
+                    <p>We believe that every right implies responsibility. The possibility of
+                        uninterrupted opportunity in the inevitable fulllment of responsibility. We are inspired by the deep
+                        connection between people, ideas, communities, and our environment.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="security-card">
                     <i class="flaticon-consultant"></i>
-                    <h3><a href="case-details.html">Risk Management</a></h3>
+                    <h3><a href="case-details.html">Transperency</a></h3>
+                    <p>We believe that transparency is needed to create a better culture in the
+                        world. That is why there is always transparency in our culture..</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="security-card">
+                    <i class="flaticon-consultant"></i>
+                    <h3><a href="case-details.html">Team Work</a></h3>
+                    <p><strong>“Teamwork makes the dream work”.</strong> We always encourage every individual around us to share knowledge and work together as a team inorder to build a healthy
+                        environment altogether.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="security-card">
+                    <i class="flaticon-consultant"></i>
+                    <h3><a href="case-details.html">Continuous Learning</a></h3>
+                    <p>We believe that education and development are indicators of
+                        innovation. Through this, we provide students with more advanced and practical education with
+                        innovative frameworks and further improve their lives with innovative solutions. We also believe that
+                        without change there is no innovation, so we always train our team to learn new things and keep
+                        them updated on every new technology so that they can achieve more in their lives and provide the
+                        best service to our clients</p>
+                </div>
+            </div>
+            <!-- <div class="col-lg-4 col-sm-6">
+                <div class="security-card">
+                    <i class="flaticon-consultant"></i>
+                    <h3><a href="case-details.html">Responsibility</a></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit scelerisque
                         ullamcorper proin scelerisque tortor odio.</p>
                 </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+<div class="counter-area pb-70">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2 style="max-width: 600px;">Our Core Ethics</h2>
+        </div>
+        <div class="row pt-45">
+            <div class="col-lg-2 col-md-3">
+                <div class="counter-another-content" style="padding-left: 0px !important; padding-top: 67px !important;">
+                    <i class="bx bx-shield"></i>
+                   
+                    <span style="font-size: 30px !important; font-weight: 700px !important;">Trust</span>
+                </div>
             </div>
+            <div class="col-lg-2 col-md-3">
+                <div class="counter-another-content" style="padding-left: 0px !important; padding-top: 67px !important;">
+                    <i class="bx bx-user-check" style="color: orange;"></i>
+                    <!-- <h3>50+</h3> -->
+                    <span style="font-size: 30px !important; font-weight: 700px !important;">Loyalty</span>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3">
+                <div class="counter-another-content" style="padding-left: 0px !important; padding-top: 67px !important;">
+                    <i class="bx bx-task" style="color: green;"></i>
+                    <!-- <h3>30+</h3> -->
+                    <span style="font-size: 30px !important; font-weight: 700px !important;">Honesty</span>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3">
+                <div class="counter-another-content" style="padding-left: 0px !important; padding-top: 67px !important;">
+                    <i class="bx bx-donate-heart" style="color: red;"></i>
+                    <!-- <h3>100%</h3> -->
+                    <span style="font-size: 30px !important; font-weight: 700px !important;">Love</span>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3">
+                <div class="counter-another-content" style="padding-left: 0px !important; padding-top: 67px !important;">
+                    <i class="bx bx-bar-chart-alt-2 " style="color: yellow;" ></i>
+                    <!-- <h3>100%</h3> -->
+                    <span style="font-size: 30px !important; font-weight: 700px !important;">Passion</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="counter-shape">
+        <div class="shape1">
+            <img src="assets/images/shape/shape1.png" alt="Images">
+        </div>
+        <div class="shape2">
+            <img src="assets/images/shape/shape2.png" alt="Images">
         </div>
     </div>
 </div>
