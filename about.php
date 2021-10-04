@@ -30,7 +30,8 @@ require('includes/navbar.php');
 </div>
 
 
-<div class="inner-banner">
+<div class="inner-banner" style=" background-image: url(assets/images/miles-burke-idhx-MOCDSk-unsplash.jpg);background-size: cover;
+                         background-position: center; background-blend-mode: color-dodge; ">
     <div class="container">
         <div class="inner-title text-center">
             <h3>About Us</h3>
@@ -46,7 +47,7 @@ require('includes/navbar.php');
         </div>
     </div>
     <div class="inner-shape">
-        <img src="assets/images/shape/inner-shape.png" alt="Images">
+        <img src="assets/images/miles-burke-idhx-MOCDSk-unsplash.jpg" alt="Images">
     </div>
 </div>
 
@@ -124,7 +125,7 @@ require('includes/navbar.php');
                             latest technology and innovation
                         </p>
                     </div>
-                    <div class="row">
+                    <div class="row" style=" margin-top: 2rem; ">
                         <div class="col-lg-6 col-6">
                             <div class="choose-content-card">
                                 <div class="content">
@@ -255,87 +256,155 @@ require('includes/navbar.php');
     </div>
 </div>
 
-<div class="counter-area pb-70">
+
+<div class="mission c-back pt-100 pb-70">
+    <div class="container">
+        <div class="section-title text-center">
+            <!-- <span class="sp-color2">Numbers Are Talking</span> -->
+            <h2>OUR MISSION</h2>
+            <p>We are committed to extending our assistance to every customer by -</p>
+        </div>
+
+        <ul style="margin-top:40px">
+            <li>
+                Bringing change and innovation to every aspect of the organization and guarantee that we convey
+                each drive remarkably with cutting-edge technology.
+            </li>
+            <br /><br />
+            <li>
+                Assisting every student to pursue their dreams through pioneering approaches and solutions.
+            </li>
+            <br /><br />
+            <li>
+                Assisting every student to pursue their dreams through pioneering approaches and solutions.
+            </li>
+            <br /><br />
+            <li>
+                Embracing our obligation towards society through consistent positive impacts and developments,
+                including improvement in the community in which we operate</li>
+
+        </ul>
+    </div>
+</div>
+
+<div class="counter-area pt-100" style="margin-bottom: 196px;">
     <div class="container">
         <div class="section-title text-center">
             <h2 style="max-width: 600px;">Our Core Ethics</h2>
         </div>
-        <div class="row pt-45">
-            <div class="col-lg-2 col-md-3">
-                <div class="counter-another-content" style="padding-left: 0px !important; padding-top: 67px !important;">
+        <div class="row" style="margin-top:100px">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2 col-md-3 up" data-aos="fade-down">
+                <div class="core-content">
                     <i class="bx bx-shield"></i>
-                   
                     <span style="font-size: 30px !important; font-weight: 700px !important;">Trust</span>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3">
-                <div class="counter-another-content" style="padding-left: 0px !important; padding-top: 67px !important;">
+            <div class="col-lg-2 col-md-3 down" data-aos="fade-up">
+                <div class="core-content">
                     <i class="bx bx-user-check" style="color: orange;"></i>
                     <!-- <h3>50+</h3> -->
                     <span style="font-size: 30px !important; font-weight: 700px !important;">Loyalty</span>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3">
-                <div class="counter-another-content" style="padding-left: 0px !important; padding-top: 67px !important;">
+            <div class="col-lg-2 col-md-3 up" data-aos="fade-down">
+                <div class="core-content">
                     <i class="bx bx-task" style="color: green;"></i>
                     <!-- <h3>30+</h3> -->
                     <span style="font-size: 30px !important; font-weight: 700px !important;">Honesty</span>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3">
-                <div class="counter-another-content" style="padding-left: 0px !important; padding-top: 67px !important;">
+            <div class="col-lg-2 col-md-3 down" data-aos="fade-up">
+                <div class="core-content">
                     <i class="bx bx-donate-heart" style="color: red;"></i>
                     <!-- <h3>100%</h3> -->
                     <span style="font-size: 30px !important; font-weight: 700px !important;">Love</span>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3">
-                <div class="counter-another-content" style="padding-left: 0px !important; padding-top: 67px !important;">
-                    <i class="bx bx-bar-chart-alt-2 " style="color: yellow;" ></i>
+            <div class="col-lg-2 col-md-3 up" data-aos="fade-down">
+                <div class="core-content">
+                    <i class="bx bx-bar-chart-alt-2 " style="color: yellow;"></i>
                     <!-- <h3>100%</h3> -->
                     <span style="font-size: 30px !important; font-weight: 700px !important;">Passion</span>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="counter-shape">
-        <div class="shape1">
-            <img src="assets/images/shape/shape1.png" alt="Images">
-        </div>
-        <div class="shape2">
-            <img src="assets/images/shape/shape2.png" alt="Images">
+            <div class="col-lg-1"></div>
         </div>
     </div>
 </div>
 
+<div class="vision v-back pt-100 pb-70">
+    <div class="container">
+        <div class="section-title text-center">
+            <!-- <span class="sp-color2">Numbers Are Talking</span> -->
+            <h2>OUR VISION</h2>
+            <!-- <p>We are committed to extending our assistance to every customer by -</p> -->
+        </div>
 
-<!-- <div class="brand-area-two ptb-100">
-<div class="container">
-<div class="brand-slider owl-carousel owl-theme">
-<div class="brand-item">
-<img src="assets/images/brand-logo/brand-style1.png" alt="Images">
-</div>
-<div class="brand-item">
-<img src="assets/images/brand-logo/brand-style2.png" alt="Images">
-</div>
-<div class="brand-item">
-<img src="assets/images/brand-logo/brand-style3.png" alt="Images">
-</div>
-<div class="brand-item">
- <img src="assets/images/brand-logo/brand-style4.png" alt="Images">
-</div>
-<div class="brand-item">
-<img src="assets/images/brand-logo/brand-style5.png" alt="Images">
-</div>
-<div class="brand-item">
-<img src="assets/images/brand-logo/brand-style3.png" alt="Images">
-</div>
-</div>
-</div>
-</div>
- -->
+        <div class="row pt-50">
+            <div class="col-lg-3">
+                <div class="round-box">
+                    <div class="small-round ">
+                        <i class="bx bx-laptop"></i>
+                    </div>
+                    <div class="big-round">
+                        <i></i>
+                        <p>
+                        We, at SCIENOVELX, envision digitizing the entire education industry and act as a solution to any problems that a student can potentially face while they are progressing through their career.
+                        </p>
 
-<div class="counter-area pt-100 pb-70">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="round-box">
+                    <div class="small-round ">
+                        <i class="bx bx-line-chart"></i>
+                    </div>
+                    <div class="big-round">
+                        <i></i>
+                        We aim
+                        to scale up as a leading brand in the Ed-eCommerce industry in our country India, and then we aim to
+                        expand to other countries in the near future.
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="round-box">
+                    <div class="small-round">
+                        <i class="bx bx-network-chart"></i>
+                    </div>
+                    <div class="big-round">
+                        <i></i>
+                        To become a world-class technology solutions company which will become an asset to our
+                        communities. We believe we will achieve our vision by nurturing our core values.
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="round-box">
+                    <div class="small-round">
+                        <i class="bx bx-category-alt"></i>
+                    </div>
+                    <div class="big-round">
+                        <i></i>
+                        Our core values will shape
+                        the culture of our business and will define the character of our organization. They will guide our
+                        decision making, our interactions with our students & clients, and our relationship with each other.
+                        Our people and team will always apply our core values in their work.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div style="margin-top:100px" class="counter-area pt-70 pb-70">
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Numbers Are Talking</span>
@@ -347,28 +416,28 @@ require('includes/navbar.php');
             <div class="col-lg-3 col-6 col-md-3">
                 <div class="counter-another-content">
                     <i class="flaticon-web-development"></i>
-                    <h3>20+</h3>
+                    <h3 class="counter" data-target="20">0</h3>
                     <span>Great young Minds</span>
                 </div>
             </div>
             <div class="col-lg-3 col-6 col-md-3">
                 <div class="counter-another-content">
                     <i class="flaticon-consulting-1"></i>
-                    <h3>50+</h3>
+                    <h3 class="counter" data-target="50">0</h3>
                     <span>Customers</span>
                 </div>
             </div>
             <div class="col-lg-3 col-6 col-md-3">
                 <div class="counter-another-content">
                     <i class="flaticon-startup"></i>
-                    <h3>30+</h3>
+                    <h3 class="counter" data-target="30">0</h3>
                     <span>Technology Solutions</span>
                 </div>
             </div>
             <div class="col-lg-3 col-6 col-md-3">
                 <div class="counter-another-content">
                     <i class="flaticon-tick"></i>
-                    <h3>100%</h3>
+                    <h3 class="counter" data-target="100">0</h3>
                     <span>Customer Satisfaction</span>
                 </div>
             </div>
@@ -388,31 +457,40 @@ require('includes/navbar.php');
 require('includes/footer.php');
 ?>
 
+<script>
+    const counters = document.querySelectorAll('.counter');
+    const speed = 200; // The lower the slower
 
+    counters.forEach(counter => {
+        const updateCount = () => {
+            const target = +counter.getAttribute('data-target');
+            const count = +counter.innerText;
 
-<script src="assets/js/jquery.min.js"></script>
+            // Lower inc to slow and higher to slow
+            const inc = target / speed;
 
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+            // console.log(inc);
+            // console.log(count);
 
-<script src="assets/js/owl.carousel.min.js"></script>
+            // Check if target is reached
+            if (count < target) {
+                // Add inc to count and output in counter
+                counter.innerText = count + inc;
+                // Call function every ms
+                setTimeout(updateCount, 1);
+            } else {
+                counter.innerText = target;
+            }
+        };
 
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
+        updateCount();
+    });
+</script>
 
-<script src="assets/js/jquery.nice-select.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<script src="assets/js/wow.min.js"></script>
-
-<script src="assets/js/meanmenu.js"></script>
-
-<script src="assets/js/jquery.ajaxchimp.min.js"></script>
-
-<script src="assets/js/form-validator.min.js"></script>
-
-<script src="assets/js/contact-form-script.js"></script>
-
-<script src="assets/js/custom.js"></script>
-</body>
-
-<!-- Mirrored from templates.hibootstrap.com/techex/default/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Jul 2021 11:55:49 GMT -->
-
-</html>
+<script>
+    AOS.init({
+        duration: 500,
+    });
+</script>

@@ -50,10 +50,10 @@ require('includes/navbar.php');
 </div>
 
 
-<div class="site-section">
+<div class="site-section pt-5">
     <div class="container">
         <div class="">
-        <div class=" text-black mb-4" style=" text-align: center; width: 100%; display: block;">
+        <div class=" text-black  pb-5" style=" text-align: center; width: 100%; display: block;">
                 <h1>Build your future with Scienovelx</h1>
             </div>
             <div class="form-group" style="text-align: center;">
@@ -64,37 +64,37 @@ require('includes/navbar.php');
     </div>
 </div>
 
-<div class="job pb-5">
+<div class="job pb-5 pt-5">
     <form  id="jobSearchForm">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 job-group">
-                    <label for="fname">First Name<span>*</span></label>
-                    <input type="text" id="first_name" class="form-control form-control-lg" required>
+                    
+                    <input type="text" id="first_name" placeholder="Name" class="form-control form-control-lg" required>
                 </div>
                 <div class="col-md-4 job-group">
-                    <label for="mname">Middle Name (Optional)</label>
-                    <input type="text" id="middle_name" class="form-control form-control-lg">
+                    
+                    <input type="text" id="middle_name" placeholder="Middle Name" class="form-control form-control-lg">
                 </div>
                 <div class="col-md-4 job-group">
-                    <label for="lname">Last Name<span>*</span></label>
-                    <input type="text" id="last_name" class="form-control form-control-lg" required>
+                    
+                    <input type="text" id="last_name" placeholder="Surname" class="form-control form-control-lg" required>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 job-group">
-                    <label for="option">Gender<span>*</span></label>
+                    
                     <select id="gender" class="form-control form-control-lg" required>
-                        <option value="" disabled selected hidden>Select</option>
+                        <option value="" selected>Gender</option>
                         <option>Male</option>
                         <option>Female</option>
                         <option>Other</option>
                     </select>
                 </div>
                 <div class="col-md-6 job-group">
-                    <label for="option">Job Type<span>*</span></label>
+                    
                     <select id="job_type" class="form-control form-control-lg" required>
-                        <option value="" disabled selected hidden>Select</option>
+                        <option value="" selected>Job Type</option>
                         <option>Full Time</option>
                         <option>Part Time</option>
                         <option>Internship</option>
@@ -104,33 +104,33 @@ require('includes/navbar.php');
 
             <div class="row">
                 <div class="col-md-6 job-group">
-                    <label for="eaddress">Email Address<span>*</span></label>
-                    <input type="email" id="email" class="form-control form-control-lg" required>
+                    
+                    <input type="email" id="email" placeholder="Email" class="form-control form-control-lg" required>
                 </div>
                 <div class="col-md-6 job-group">
-                    <label for="phone">Contact Number<span>*</span></label>
-                    <input type="tel" id="organisation" class="form-control form-control-lg" required>
+                    
+                    <input type="tel" id="organisation" placeholder="Phone no." class="form-control form-control-lg" required>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 job-group">
-                    <label for="Country">Country<span>*</span></label>
-                    <input type="text" id="Country" class="form-control form-control-lg" required>
+                    
+                    <input type="text" id="Country" placeholder="Country" class="form-control form-control-lg" required>
                 </div>
                 <div class="col-md-6 job-group">
-                    <label for="City">City<span>*</span></label>
-                    <input type="City" id="city" class="form-control form-control-lg" required>
+                    
+                    <input type="City" id="city" placeholder="City" class="form-control form-control-lg" required>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 job-group">
-                    <label for="Experience">Experience Level<span>*</span></label>
-                    <input type="text" id="exp" class="form-control form-control-lg" required>
+                    
+                    <input type="text" id="exp" placeholder="Experience" class="form-control form-control-lg" required>
                 </div>
                 <div class="col-md-4 job-group">
-                    <label for="option">Years<span>*</span></label>
+                    
                     <select id="Years" class="form-control form-control-lg" required>
-                        <option value="" disabled selected hidden>Select</option>
+                        <option value="" selected>Experience</option>
                         <option> 1 Year</option>
                         <option> 2 Year</option>
                         <option> 3 Year</option>
@@ -140,9 +140,9 @@ require('includes/navbar.php');
                     </select>
                 </div>
                 <div class="col-md-4 job-group">
-                    <label for="option">Months<span>*</span></label>
-                    <select id="Months" class="form-control form-control-lg" required>
-                        <option value="" disabled selected hidden>Select</option>
+                    
+                    <select id="Months" class="form-control form-control-lg" placeholder="Months" required>
+                        <option value="" selected>Months</option>
                         <option> 0 Months</option>
                         <option> 1 Months</option>
                         <option> 2 Months</option>
@@ -162,13 +162,13 @@ require('includes/navbar.php');
 
             <div class="row">
                 <div class="col-md-6 job-group">
-                    <label for="Skill">Primalry Skill<span>*</span></label>
-                    <input type="Text" id="skill" class="form-control form-control-lg" required>
+                    
+                    <input type="Text" id="skill" placeholder="Skills" class="form-control form-control-lg" required>
                 </div>
                 <div class="col-md-6 job-group">
-                    <label for="option">Job Category<span>*</span></label>
+                   
                     <select id="job_category" class="form-control form-control-lg" required>
-                        <option value="" disabled selected hidden>Select your preference</option>
+                        <option value="" selected >Job Category</option>
                         <option>Digital</option>
                         <option>Engineering & Technology</option>
                         <option>Business Process</option>

@@ -52,41 +52,47 @@ require('includes/navbar.php');
       </div>
       <div class="container">
         <div class="section-title ">
-          <h2 class="text-center" style="margin-top: 20px; margin-bottom: 20px;">Perks & Benefits</h2>
+          <h2 class="text-center" style="margin-top: 50px;margin-bottom: 50px;">Perks & Benefits</h2>
         </div>
         <div style="margin-bottom:50px" class="row" >
-          <div class="col-lg-4 col-md-6 card-holder">
-            <div>
+          <div class="col-lg-4 col-md-6 ">
+            <div class="card-holder">
               <img src="images/paradise-1110498_1920.jpg" height="228px" alt="">
-              <h3>Anniversary Holidays</h3>
+              <h3 class="c-h3">Anniversary Holidays</h3>
             </div>
-
           </div>
-          <div class="col-lg-4 col-md-6 card-holder">
-            <div>
+          <div class="col-lg-4 col-md-6 ">
+            <div class="card-holder">
               <img src="images/concert-336695_1920.jpg" height="228px" alt="">
-              <h3>Celebrations</h3>
-              <p>(Event, birthday & special holiday)</p>
+              <h3 class="c-h3">Celebrations</h3>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 card-holder">
-            <img src="images/giorgio-trovato-_XTY6lD8jgM-unsplash.jpg" height="228px" alt="">
-            <h3>Achievements & Awards</h3>
+          <div class="col-lg-4 col-md-6 ">
+            <div class="card-holder">
+              <img src="images/giorgio-trovato-_XTY6lD8jgM-unsplash.jpg" height="228px" alt="">
+              <h3 class="c-h3">Achievements & Awards</h3>
+            </div>
           </div>
         </div>
 
         <div style="margin-bottom:50px" class="row">
-          <div class="col-lg-4 col-md-6 card-holder">
+          <div class="col-lg-4 col-md-6 ">
+            <div class="card-holder">
             <img src="images/green-chameleon-s9CC2SKySJM-unsplash.jpg" height="228px" alt="">
-            <h3>Continuous Learning</h3>
+            <h3 class="c-h3">Continuous Learning</h3>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 card-holder">
+          <div class="col-lg-4 col-md-6 ">
+            <div class="card-holder">
             <img src="images/hannah-busing-Zyx1bK9mqmA-unsplash.jpg" height="228px" alt="">
-            <h3>Team Work</h3>
+            <h3 class="c-h3">Team Work</h3>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 card-holder">
+          <div class="col-lg-4 col-md-6 ">
+            <div class="card-holder">
             <img src="images/tim-marshall-cAtzHUz7Z8g-unsplash.jpg" height="228px" alt="">
-            <h3>Social Awarness Program</h3>
+            <h3 class="c-h3">Social Awarness Program</h3>
+            </div>
           </div>
         </div>
 
@@ -102,30 +108,7 @@ require('includes/navbar.php');
 require('includes/footer.php');
 ?>
 
-<script src="assets/js/jquery.min.js"></script>
-
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-
-<script src="assets/js/owl.carousel.min.js"></script>
-
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-
-<script src="assets/js/jquery.nice-select.min.js"></script>
-
-<script src="assets/js/wow.min.js"></script>
-
-<script src="assets/js/meanmenu.js"></script>
-
-<script src="assets/js/jquery.ajaxchimp.min.js"></script>
-
-<script src="assets/js/form-validator.min.js"></script>
-
-<script src="assets/js/contact-form-script.js"></script>
-
-<script src="assets/js/custom.js"></script>
-
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
   <script>
     AOS.init({
       duration: 1200,
@@ -133,6 +116,3 @@ require('includes/footer.php');
   </script>
 
 
-</body>
-
-</html>

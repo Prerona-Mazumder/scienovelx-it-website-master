@@ -30,79 +30,78 @@ require('includes/navbar.php');
 
 
 <div class="banner-slider-area">
-    <div class="banner-slider owl-carousel owl-theme">
-        <div class="banner-item item-bg1">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container">
-                        <div class="banner-item-content">
-                            <span>Only High Quality Services</span>
-                            <h1>WELCOME TO SCIENOVELX</h1>
-                            <p>
-                                “Discover your stepping Stone”
-                                </br></br>
-                                <a href="about.php">
-                                    <span style="font-size: 18px;background:transparent !important;color:#fff !important;margin-right: -16px;">It all starts here</span><i class='bx bxs-right-arrow-circle bx-fade-right bx-sm'></i>
-                                </a>
-                                </br></br>
-                                Bringing change and innovation to every aspect of the organization and guarantee
-                                that we convey each drive remarkably with cutting-edge technology. Assisting every
-                                student to pursue their dreams through pioneering approaches and
-                                solutions.
-                            </p>
-                            <div class="banner-btn">
-                                <a href="#calendy" class="default-btn btn-bg-two border-radius-50">Book Free
-                                    Consultation<i class='bx bx-chevron-right'></i></a>
-                                <a href="contact.php" class="default-btn btn-bg-one border-radius-50 ml-20">Watch
-                                    Demos Now<i class='bx bx-chevron-right'></i></a>
+        <div class="banner-slider owl-carousel owl-theme">
+            <div class="banner-item item-bg1">
+                <div class="d-table">
+                    <div class="d-table-cell">
+                        <div class="container">
+                            <div class="banner-item-content">
+                                <span>Only High Quality Services</span>
+                                <h1>WELCOME TO SCIENOVELX</h1>
+                                <p>
+                                    “Discover your stepping Stone”
+                                    </br></br>
+                                    <a href="about.html">It all starts here<i style="margin-top:1.52rem" class='bx bxs-right-arrow-circle bx-fade-right bx-sm'></i></a>
+                                    </br></br>
+                                    Bringing change and innovation to every aspect of the organization and guarantee
+                                    that we convey each drive remarkably with cutting-edge technology. Assisting every
+                                    student to pursue their dreams through pioneering approaches and
+                                    solutions.
+                                </p>
+                                <div class="banner-btn">
+                                    <a href="about.html" class="default-btn btn-bg-two border-radius-50">Book Free
+                                        Consultation<i class='bx bx-chevron-right'></i></a>
+                                    <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Watch
+                                        Demos Now<i class='bx bx-chevron-right'></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="banner-item item-bg2">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container">
-                        <div class="banner-item-content">
-                            <span>Only High Quality Services</span>
-                            <h1>A Commitment to your Advancement</h1>
-                            <p>
-                                As for IT Services, we are now putting a weightage on helping startups,
-                                entrepreneurs, working professionals, individuals, MSMEs, corporates, colleges and
-                                universities with technology services and products including various web services,
-                                internet products,etc.
-                            </p>
-                            <div class="banner-btn">
-                                <a href="Book.php" class="default-btn btn-bg-two border-radius-50">Book Free
-                                    Consultation<i class='bx bx-chevron-right'></i></a>
-                                <a href="contact.php" class="default-btn btn-bg-one border-radius-50 ml-20">Watch
-                                    Demos Now<i class='bx bx-chevron-right'></i></a>
+            <div class="banner-item item-bg2">
+                <div class="d-table">
+                    <div class="d-table-cell">
+                        <div class="container">
+                            <div class="banner-item-content">
+                                <span>Only High Quality Services</span>
+                                <h1>A Commitment to your Advancement</h1>
+                                <p>
+                                    SCIENOVELX is the first Ed-eCommerce service that is striving hard to digitalize the
+                                    education industry and serve the students by imparting a great deal of knowledge to
+                                    them along with Industrial Trainings & workshops
+
+                                </p>
+                                <div class="banner-btn">
+                                    <a href="about.html" class="default-btn btn-bg-two border-radius-50">Book Free
+                                        Consultation<i class='bx bx-chevron-right'></i></a>
+                                    <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Watch
+                                        Demos Now<i class='bx bx-chevron-right'></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="banner-item item-bg3">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container">
-                        <div class="banner-item-content">
-                            <span>Only High Quality Services</span>
-                            <h1>An Innovation hub For Transforming the Education Industry into the next great height
-                            </h1>
-                            <p>
-
-                                SCIENOVELX is the first Ed-eCommerce service that is striving hard to digitalize the
-                                education industry and serve the students by imparting a great deal of knowledge to
-                                them along with Industrial Trainings & workshops.
-
-                            </p>
-                            <div class="banner-btn">
-                                <a href="about.php" class="default-btn btn-bg-two border-radius-50"><i class='bx bx-chevron-right'></i>New Ed-eCopmmerce System</a>
-                                <!-- <a href="contact.php" class="default-btn btn-bg-one border-radius-50 ml-20">Watch Demos Now<i class='bx bx-chevron-right'></i>Watch Demos Now</a> -->
+            <div class="banner-item item-bg3">
+                <div class="d-table">
+                    <div class="d-table-cell">
+                        <div class="container">
+                            <div class="banner-item-content">
+                                <span>Only High Quality Services</span>
+                                <h1>An Innovation hub For Transforming the Education Industry into the next great height
+                                </h1>
+                                <p>
+                                    As for IT Services, we are now putting a weightage on helping startups,
+                                    entrepreneurs, working professionals, individuals, MSMEs, corporates, colleges and
+                                    universities with technology services and products including various web services,
+                                    internet products,etc.
+                                </p>
+                                <div class="banner-btn">
+                                    <a href="about.html" class="default-btn btn-bg-two border-radius-50"><i
+                                            class='bx bx-chevron-right'></i>New Ed-eCopmmerce System</a>
+                                    <!-- <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Watch Demos Now<i class='bx bx-chevron-right'></i>Watch Demos Now</a> -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -110,7 +109,6 @@ require('includes/navbar.php');
             </div>
         </div>
     </div>
-</div>
 
 
 <section class="services-area-two pt-100 pb-70">
@@ -598,6 +596,67 @@ require('includes/navbar.php');
     </div>
 </section>
 
+<section class="accordian pt-100 pb-70">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2 style="width: 80%; margin: auto; margin-bottom: 60px;">Here’s how SCIENOVELX can benefit in Education Industry as well as the world of business</h2>
+        </div>
+        <div class="accordion" id="accordionExample">
+            
+            <div class="accordion-item" data-aos="fade-down">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <strong>Committed to your long-term success, stronger than steel No-Risk money-back guarantee.</strong>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        We are committed to extending our assistance to everyone by bringing change and innovation to every aspect of the organization and guarantee that we convey each drive remarkably with cutting-edge technology. Creating an exceptional quality, service, and value for our clients through deploying the best business solutions that address customer challenges and help accelerate the acquisition of their business vision is our primary goal
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item" data-aos="fade-down">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <strong>The single source of all your digital solutions.</strong>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        All your business needs, technologies, ideas, tech advancement, best in class software, services, and IT personalise. </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item" data-aos="fade-down">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong> Scalable and Flexible </strong>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Solutions for entrepreneurs, working professionals, Individuals, MSMEs, Small businesses, any size of Startups/Corporates/Industries, Schools/Colleges/Educational Institutions, etc.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item" data-aos="fade-down">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <strong> In the education industry with a novel touch of smart and digital life for students.</strong>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Creating a next-gen Ed-eCommerce platform to digitize the education industry and work as a solution to any and all problems that a student might think of potentially facing as they move forward through their careers.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 <!-- <div class="brand-area ptb-100">
 <div class="container">
@@ -739,8 +798,8 @@ require('includes/navbar.php');
                     <div class="section-title">
                         <!-- <span class="sp-color2">15 Years f Experience</span> -->
                         <h2 class="text-center" style="font-size: 44px !important;">Book a Free Consultation</h2>
-                        <h5 class="text-center" style="color: #0071dc;margin-top: 26px !important;font-size: 30px;text-transform: uppercase;width: 80%;font-weight: 900;margin: auto;letter-spacing: 1px;line-height: 2.7rem;">
-                                When Innovation Finds You, Find Us.</h5>
+                        <h5 class="text-center"  style="color: #0071dc;margin-top: 26px !important;font-size: 30px;text-transform: uppercase;width: 80%;font-weight: 900;margin: auto;letter-spacing: 1px;line-height: 2.7rem;">
+                            When Innovation Finds You, Find Us.</h5>
                         <!-- <div class="calendly-img">
                             <img src="assets/images/calendly.png" alt="">
                         </div> -->
@@ -896,43 +955,25 @@ require('includes/navbar.php');
 require('includes/footer.php');
 ?>
 
-<script src="assets/js/jquery.min.js"></script>
-
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-
-<script src="assets/js/owl.carousel.min.js"></script>
-
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-
-<script src="assets/js/jquery.nice-select.min.js"></script>
-
-<script src="assets/js/wow.min.js"></script>
-
-<script src="assets/js/meanmenu.js"></script>
-
-<script src="assets/js/jquery.ajaxchimp.min.js"></script>
-
-<script src="assets/js/form-validator.min.js"></script>
-
-<script src="assets/js/contact-form-script.js"></script>
-
-<script src="assets/js/custom.js"></script>
 
 <script>
     $(document).ready(function() {
         $(window).scroll(function() {
             var scroll = $(window).scrollTop();
-            if (scroll > 300) {
-                $("#navbar").css("height", "80px");
+            if (scroll > 200) {
+                $("#navbar").css("height", "70px");
                 $("#logo").css("width", "100px");
             } else {
-                $("#navbar").css("height", "auto");
+                $("#navbar").css("height", "100px");
             }
         })
     })
 </script>
-</body>
 
-<!-- Mirrored from templates.hibootstrap.com/techex/default/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Jul 2021 11:55:46 GMT -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-</html>
+<script>
+    AOS.init({
+      duration: 500,
+    });
+  </script>
