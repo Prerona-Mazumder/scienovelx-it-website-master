@@ -1,0 +1,69 @@
+$gradientblue: #666;
+$gradientpurple: #A1D8E6;
+$gradientdeg: 135deg;
+
+/*source: https://www.internetrix.com.au/blog/10-sass-scss-mixins-you-will-use-every-day/ */
+@mixin linear-gradient-border($color-one,$color-two,$degrees) {
+  border-image: -moz-linear-gradient($degrees, $color-one 0%, $color-two 100%); /* ff3.6+ */
+  border-image: -webkit-gradient(linear, left top, right top, color-stop(0%, $color-one), color-stop(100%, $color-two)); /* safari4+,chrome */
+  border-image: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%); /* safari5.1+,chrome10+ */
+  border-image: -o-linear-gradient($degrees, $color-one 0%, $color-two 100%); /* opera 11.10+ */
+  border-image: -ms-linear-gradient($degrees, $color-one 0%, $color-two 100%); /* ie10+ */
+  border-image: linear-gradient($degrees, $color-one 0%, $color-two 100%); /* w3c */
+}
+
+.btn-gradient {
+	@include linear-gradient-border($gradientblue,$gradientpurple,$gradientdeg);
+	border-width: 10px;
+	border-style: solid;
+	border-image-slice: 1;
+
+	font-size: 18px;
+  font-family: sans-serif;
+	text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+	padding: 15px 50px;
+	max-width: 215px;
+  color: black;
+  font-weight: bold;
+  background: white;
+  
+	position: relative;
+
+	&:before {
+		@include linear-gradient-border($gradientpurple,$gradientblue,$gradientdeg);
+		border-width: 10px;
+		border-style: solid;
+		border-image-slice: 1;
+		position: absolute;
+		content: '';
+		display: block;
+		height: 100%;
+		top: -10px;
+		left: -10px;
+		opacity: 0;
+		width: 100%;
+		z-index: 0;
+		transition: opacity 1s;
+
+	}
+	&:hover {
+		&:before {
+			opacity: 1;
+      transition: opacity 1s;
+		}
+	}
+}
+
+.contain {
+  display: flex;
+  width: 100vh;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: #eee;
+}

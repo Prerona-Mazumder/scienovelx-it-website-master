@@ -219,7 +219,7 @@ require('includes/navbar.php');
             <div class="col-lg-4 col-sm-6">
                 <div class="security-card">
                     <i class="flaticon-consultant"></i>
-                    <h3><a href="case-details.html">Transperency</a></h3>
+                    <h3><a href="case-details.html">Transparency</a></h3>
                     <p>We believe that transparency is needed to create a better culture in the
                         world. That is why there is always transparency in our culture..</p>
                 </div>
@@ -300,7 +300,7 @@ require('includes/navbar.php');
                     <span style="font-size: 30px !important; font-weight: 700px !important;">Trust</span>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3 down" data-aos="fade-up">
+            <div class="col-lg-2 col-md-3 down" id="loyalty" data-aos="fade-up">
                 <div class="core-content">
                     <i class="bx bx-user-check" style="color: orange;"></i>
                     <!-- <h3>50+</h3> -->
@@ -314,7 +314,7 @@ require('includes/navbar.php');
                     <span style="font-size: 30px !important; font-weight: 700px !important;">Honesty</span>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3 down" data-aos="fade-up">
+            <div class="col-lg-2 col-md-3 down" id="love" data-aos="fade-up">
                 <div class="core-content">
                     <i class="bx bx-donate-heart" style="color: red;"></i>
                     <!-- <h3>100%</h3> -->
@@ -349,8 +349,8 @@ require('includes/navbar.php');
                     </div>
                     <div class="big-round">
                         <i></i>
-                        <p>
-                        We, at SCIENOVELX, envision digitizing the entire education industry and act as a solution to any problems that a student can potentially face while they are progressing through their career.
+                        <p class="ethics">
+                            We, at SCIENOVELX, envision digitizing the entire education industry and act as a solution to any problems that a student can potentially face while they are progressing through their career.
                         </p>
 
                     </div>
@@ -363,9 +363,12 @@ require('includes/navbar.php');
                     </div>
                     <div class="big-round">
                         <i></i>
-                        We aim
-                        to scale up as a leading brand in the Ed-eCommerce industry in our country India, and then we aim to
-                        expand to other countries in the near future.
+                        <p class="ethics">
+
+                            We aim
+                            to scale up as a leading brand in the Ed-eCommerce industry in our country India, and then we aim to
+                            expand to other countries in the near future.
+                        </p>
 
                     </div>
                 </div>
@@ -377,9 +380,10 @@ require('includes/navbar.php');
                     </div>
                     <div class="big-round">
                         <i></i>
-                        To become a world-class technology solutions company which will become an asset to our
-                        communities. We believe we will achieve our vision by nurturing our core values.
-
+                        <p class="ethics">
+                            To become a world-class technology solutions company which will become an asset to our
+                            communities. We believe we will achieve our vision by nurturing our core values.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -390,10 +394,11 @@ require('includes/navbar.php');
                     </div>
                     <div class="big-round">
                         <i></i>
-                        Our core values will shape
-                        the culture of our business and will define the character of our organization. They will guide our
-                        decision making, our interactions with our students & clients, and our relationship with each other.
-                        Our people and team will always apply our core values in their work.
+                        <p class="ethics">
+                            Our core values will shape
+                            the culture of our business and will define the character of our organization. They will guide our
+                            decision making, our interactions with our students & clients.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -416,28 +421,28 @@ require('includes/navbar.php');
             <div class="col-lg-3 col-6 col-md-3">
                 <div class="counter-another-content">
                     <i class="flaticon-web-development"></i>
-                    <h3 class="counter" data-target="20">0</h3>
+                    <h3><span class="counter">20</span><span>+</span></h3>
                     <span>Great young Minds</span>
                 </div>
             </div>
             <div class="col-lg-3 col-6 col-md-3">
                 <div class="counter-another-content">
                     <i class="flaticon-consulting-1"></i>
-                    <h3 class="counter" data-target="50">0</h3>
+                    <h3><span class="counter">30</span><span>+</span></h3>
                     <span>Customers</span>
                 </div>
             </div>
             <div class="col-lg-3 col-6 col-md-3">
                 <div class="counter-another-content">
                     <i class="flaticon-startup"></i>
-                    <h3 class="counter" data-target="30">0</h3>
+                    <h3><span class="counter">50</span><span>+</span></h3>
                     <span>Technology Solutions</span>
                 </div>
             </div>
             <div class="col-lg-3 col-6 col-md-3">
                 <div class="counter-another-content">
                     <i class="flaticon-tick"></i>
-                    <h3 class="counter" data-target="100">0</h3>
+                    <h3><span class="counter">100</span><span>%</span></h3>
                     <span>Customer Satisfaction</span>
                 </div>
             </div>
@@ -458,34 +463,36 @@ require('includes/footer.php');
 ?>
 
 <script>
-    const counters = document.querySelectorAll('.counter');
-    const speed = 200; // The lower the slower
-
-    counters.forEach(counter => {
-        const updateCount = () => {
-            const target = +counter.getAttribute('data-target');
-            const count = +counter.innerText;
-
-            // Lower inc to slow and higher to slow
-            const inc = target / speed;
-
-            // console.log(inc);
-            // console.log(count);
-
-            // Check if target is reached
-            if (count < target) {
-                // Add inc to count and output in counter
-                counter.innerText = count + inc;
-                // Call function every ms
-                setTimeout(updateCount, 1);
-            } else {
-                counter.innerText = target;
-            }
-        };
-
-        updateCount();
+    $(document).ready(function() {
+        $(document).ready(increment);
+        function increment(){
+            $(".counter").counterUp({
+                delay: 10,
+                time: 1200
+            });
+        }
     });
+
+    
 </script>
+
+<script>
+    $(document).ready(checkWidth);
+
+    function checkWidth() {
+        if ($(window).width() < 982) {
+            $('#loyalty').removeClass('down');
+            $('#love').removeClass('down');
+        } else {
+            $('#loyalty').addClass('down');
+            $('#love').addClass('down');
+        }
+    }
+    $(window).resize(checkWidth);
+</script>
+
+
+
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 

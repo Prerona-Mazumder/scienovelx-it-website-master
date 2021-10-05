@@ -30,78 +30,76 @@ require('includes/navbar.php');
 
 
 <div class="banner-slider-area">
-        <div class="banner-slider owl-carousel owl-theme">
-            <div class="banner-item item-bg1">
-                <div class="d-table">
-                    <div class="d-table-cell">
-                        <div class="container">
-                            <div class="banner-item-content">
-                                <span>Only High Quality Services</span>
-                                <h1>WELCOME TO SCIENOVELX</h1>
-                                <p>
-                                    “Discover your stepping Stone”
-                                    </br></br>
-                                    <a href="about.html">It all starts here<i style="margin-top:1.52rem" class='bx bxs-right-arrow-circle bx-fade-right bx-sm'></i></a>
-                                    </br></br>
-                                    Bringing change and innovation to every aspect of the organization and guarantee
-                                    that we convey each drive remarkably with cutting-edge technology. Assisting every
-                                    student to pursue their dreams through pioneering approaches and
-                                    solutions.
-                                </p>
-                                <div class="banner-btn">
-                                    <a href="about.html" class="default-btn btn-bg-two border-radius-50">Book Free
-                                        Consultation<i class='bx bx-chevron-right'></i></a>
-                                    <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Watch
-                                        Demos Now<i class='bx bx-chevron-right'></i></a>
-                                </div>
+    <div class="banner-slider owl-carousel owl-theme">
+        <div class="banner-item item-bg1">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="container">
+                        <div class="banner-item-content">
+                            <span>Only High Quality Services</span>
+                            <h1>WELCOME TO SCIENOVELX</h1>
+                            <p>
+                                “Discover your stepping Stone”
+                                </br></br>
+                                <a href="about.html">It all starts here<i style="margin-top:1.52rem" class='bx bxs-right-arrow-circle bx-fade-right bx-sm'></i></a>
+                                </br></br>
+                                Bringing change and innovation to every aspect of the organization and guarantee
+                                that we convey each drive remarkably with cutting-edge technology. Assisting every
+                                student to pursue their dreams through pioneering approaches and
+                                solutions.
+                            </p>
+                            <div class="banner-btn">
+                                <a href="about.html" class="default-btn btn-bg-two border-radius-50">Book Free
+                                    Consultation<i class='bx bx-chevron-right'></i></a>
+                                <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Watch
+                                    Demos Now<i class='bx bx-chevron-right'></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="banner-item item-bg2">
-                <div class="d-table">
-                    <div class="d-table-cell">
-                        <div class="container">
-                            <div class="banner-item-content">
-                                <span>Only High Quality Services</span>
-                                <h1>A Commitment to your Advancement</h1>
-                                <p>
-                                    SCIENOVELX is the first Ed-eCommerce service that is striving hard to digitalize the
-                                    education industry and serve the students by imparting a great deal of knowledge to
-                                    them along with Industrial Trainings & workshops
+        </div>
+        <div class="banner-item item-bg2">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="container">
+                        <div class="banner-item-content">
+                            <span>Only High Quality Services</span>
+                            <h1>A Commitment to your Advancement</h1>
+                            <p>
+                                SCIENOVELX is the first Ed-eCommerce service that is striving hard to digitalize the
+                                education industry and serve the students by imparting a great deal of knowledge to
+                                them along with Industrial Trainings & workshops
 
-                                </p>
-                                <div class="banner-btn">
-                                    <a href="about.html" class="default-btn btn-bg-two border-radius-50">Book Free
-                                        Consultation<i class='bx bx-chevron-right'></i></a>
-                                    <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Watch
-                                        Demos Now<i class='bx bx-chevron-right'></i></a>
-                                </div>
+                            </p>
+                            <div class="banner-btn">
+                                <a href="about.html" class="default-btn btn-bg-two border-radius-50">Book Free
+                                    Consultation<i class='bx bx-chevron-right'></i></a>
+                                <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Watch
+                                    Demos Now<i class='bx bx-chevron-right'></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="banner-item item-bg3">
-                <div class="d-table">
-                    <div class="d-table-cell">
-                        <div class="container">
-                            <div class="banner-item-content">
-                                <span>Only High Quality Services</span>
-                                <h1>An Innovation hub For Transforming the Education Industry into the next great height
-                                </h1>
-                                <p>
-                                    As for IT Services, we are now putting a weightage on helping startups,
-                                    entrepreneurs, working professionals, individuals, MSMEs, corporates, colleges and
-                                    universities with technology services and products including various web services,
-                                    internet products,etc.
-                                </p>
-                                <div class="banner-btn">
-                                    <a href="about.html" class="default-btn btn-bg-two border-radius-50"><i
-                                            class='bx bx-chevron-right'></i>New Ed-eCopmmerce System</a>
-                                    <!-- <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Watch Demos Now<i class='bx bx-chevron-right'></i>Watch Demos Now</a> -->
-                                </div>
+        </div>
+        <div class="banner-item item-bg3">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="container">
+                        <div class="banner-item-content">
+                            <span>Only High Quality Services</span>
+                            <h1>An Innovation hub For Transforming the Education Industry into the next great height
+                            </h1>
+                            <p>
+                                As for IT Services, we are now putting a weightage on helping startups,
+                                entrepreneurs, working professionals, individuals, MSMEs, corporates, colleges and
+                                universities with technology services and products including various web services,
+                                internet products,etc.
+                            </p>
+                            <div class="banner-btn">
+                                <a href="about.html" class="default-btn btn-bg-two border-radius-50"><i class='bx bx-chevron-right'></i>New Ed-eCopmmerce System</a>
+                                <!-- <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Watch Demos Now<i class='bx bx-chevron-right'></i>Watch Demos Now</a> -->
                             </div>
                         </div>
                     </div>
@@ -109,6 +107,7 @@ require('includes/navbar.php');
             </div>
         </div>
     </div>
+</div>
 
 
 <section class="services-area-two pt-100 pb-70">
@@ -395,14 +394,17 @@ require('includes/navbar.php');
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="call-contact">
-                    <h3>AWARDS & HONORS</h3>
-                    <a href="" class="call-btn">Awards and Recognition</a>
+                <div class="section-title text-center">
+                        <span style="color: #ffc221;">Awards and Honors</span>
+                        <h2 style="color:#fff; margin: 20px 0;">Awards and Recognitions</h2>
+                    </div>
+                  
                     <p>Since day one, we have promised to be the Earth's best user-friendly and trusted company. Now
                         we are on the path to innovation to improve the way the world works and lives. We love what
                         we do, and we always believe in our customer success as our own success. so we are working
                         hard to make our customers, and communities more successful as well as make the world a
                         better place.
-                        <br /><br /><br />
+                        <br /><br />
                         We're honored to be recognized for some of the awards we have recently received.
                     </p>
                     <a href="#" class="default-btn btn-bg-two border-radius-5">Explore Portfolio</a>
@@ -435,21 +437,24 @@ require('includes/navbar.php');
                             </div>
                         </div>
                         <div class="row">
+                            <div class="award-item col-sm" style="text-align: center">
+                                <a target="blank" href="assets/certificates/SCIENOVELX_MSME_CERTIFICATE.pdf">
+                                    <img class="award-img" style="width: 37%;margin-right: 71px; margin-bottom: 37px;" src="assets/images/brand-logo/brand-logo4.png" alt="Images">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
                             <div class="award-item col-sm">
                                 <a target="blank" href="assets/certificates/Subhajit Ghosh _CERTIFICATE .pdf">
                                     <img class="award-sq" src="assets/images/brand-logo/brand-logo1.png" alt="Images">
                                 </a>
                             </div>
-                            <div class="award-item col-sm pt-100">
-                                <a target="blank" href="assets/certificates/SCIENOVELX_MSME_CERTIFICATE.pdf">
-                                    <img class="award-sq" src="assets/images/brand-logo/brand-logo4.png" alt="Images">
+                            <div class="award-item col-sm">
+                                <a target="blank" href="assets/certificates/DIPP85112_SCIENOVELX_EDUCATION_&_TECHNOLOGY_SOLUTIONS_PRIVATE_LIMITED_RECOGNITION_4850160228687555643.pdf">
+                                    <img class="award-sq" src="assets/images/brand-logo/brand-logo5.png" alt="Images">
+                                    <!-- style="width:100%; margin: auto;" class="award-sq" src="assets/images/brand-logo/brand-logo5.png" -->
                                 </a>
                             </div>
-                        </div>
-                        <div class="award-item pt-90">
-                            <a target="blank" href="assets/certificates/DIPP85112_SCIENOVELX_EDUCATION_&_TECHNOLOGY_SOLUTIONS_PRIVATE_LIMITED_RECOGNITION_4850160228687555643.pdf">
-                                <img style="width:100%; margin: auto;" class="award-sq" src="assets/images/brand-logo/brand-logo5.png" alt="Images">
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -459,7 +464,7 @@ require('includes/navbar.php');
 </div>
 
 
-<div class="case-study-area pt-100 pb-70">
+<div class="case-study-area pt-100">
     <div class="container-fluid p-0">
         <div class="section-title text-center">
             <span class="sp-color2">Case Study</span>
@@ -549,7 +554,7 @@ require('includes/navbar.php');
 </div>
 
 
-<section class="technology-area pt-100 pb-70">
+<section class="technology-area pt-50 pb-70">
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color1">Technology Index</span>
@@ -602,7 +607,7 @@ require('includes/navbar.php');
             <h2 style="width: 80%; margin: auto; margin-bottom: 60px;">Here’s how SCIENOVELX can benefit in Education Industry as well as the world of business</h2>
         </div>
         <div class="accordion" id="accordionExample">
-            
+
             <div class="accordion-item" data-aos="fade-down">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -691,51 +696,50 @@ require('includes/navbar.php');
         </div>
         <!-- <div class="clients-slider owl-carousel owl-theme pt-45">  -->
         <div class="p-5">
-            <div style="display:flex" class="clients-content">
-                <div class="content col-lg-3">
+            <div style="display:flex" class="row clients-content">
+                <div class="content col-lg-3 col-sm-12">
                     <img src="assets/images/ceo-img/ceo.png" alt="Images">
                     <br />
                     <h3>Subhajit Ghosh</h3>
                     <span>Founder</span>
-                    <br />
-
                 </div>
-                <p style="text-align:justify;" class="col-lg-8y">
-                    <span class="welc">
-                        <i class='bx bxs-quote-alt-left'></i>
-                        <strong>WELCOME TO SCIENOVELX!</strong>
-                        <i class='bx bxs-quote-alt-right'></i>
-                    </span>
+                <div class="col-lg-8 col-sm-12">
+                    <p>
+                        <span class="welc">
+                            <i class='bx bxs-quote-alt-left'></i>
+                            <strong class="title-ceo">WELCOME TO SCIENOVELX!</strong>
+                            <i class='bx bxs-quote-alt-right'></i>
+                        </span>
 
-                    It gives me great pleasure to welcome you to the creation of SCIENOVELX.
-                    Here you will find a comprehensive, in-depth story about our journey. It also conveys our sense
-                    of mission and vision which is going to empower us to innovate in the Education industry as well
-                    as the world of business transformation.
-                    <br />
-                    <br />
-                    <i><strong>
-                            “OUR COMPREHENSIVE PROCESS- FROM UNDERSTANDING AND IDENTIFYING COMPLEX CHALLENGES TO
-                            RESEARCH AND
-                            DEVELOPMENT, RIGHT THROUGH TO QUALITY TESTING IN A BEST POSSIBLE DATA-DRIVEN
-                            ENVIRONMENT-ASSURES
-                            CLIENTS THAT THEIR PROJECT IS IN THE HANDS OF A TEAM OF GREAT MINDS BY OUR UNIQUE
-                            INVENTORSHIP
-                            DNA THAT HAS BUILD A REPUTATION FOR PROVIDING CLOUD-LED, BEST SUSTAINABLE SOLUTIONS,
-                            VALUE,
-                            QUALITY, TRAINING AND SUPPORT ON TIME, ON BUDGET, AND ON TARGET”</strong></i>
-                    <br />
-                    <br />
-                    I hope this provides you with a few reasons to get to know SCIENOVELX better. Whether you are a
-                    potential customer, a small business partner, or a future employee, we look forward to finding
-                    out how we can work together to bring service to life.
-                    I personally have always believed that in order to have a beautiful wide-ranging relationship
-                    one must have one’s own ethics and commitments in fact, and that is why it is always our duty to
-                    do so. And also I have always believed that when it comes to defining and communicating an
-                    organization’s vision and goals, conciseness is a virtue.
-                    <br />
-                    <i style=" text-align: right; width: 100%; display: block;"><strong>- Subhajit Ghosh (CEO & Founder)</strong></i>
-                </p>
-
+                        It gives me great pleasure to welcome you to the creation of SCIENOVELX.
+                        Here you will find a comprehensive, in-depth story about our journey. It also conveys our sense
+                        of mission and vision which is going to empower us to innovate in the Education industry as well
+                        as the world of business transformation.
+                        <br />
+                        <br />
+                        <i><strong class="title-ceo">
+                                “OUR COMPREHENSIVE PROCESS- FROM UNDERSTANDING AND IDENTIFYING COMPLEX CHALLENGES TO
+                                RESEARCH AND
+                                DEVELOPMENT, RIGHT THROUGH TO QUALITY TESTING IN A BEST POSSIBLE DATA-DRIVEN
+                                ENVIRONMENT-ASSURES
+                                CLIENTS THAT THEIR PROJECT IS IN THE HANDS OF A TEAM OF GREAT MINDS BY OUR UNIQUE
+                                INVENTORSHIP
+                                DNA THAT HAS BUILD A REPUTATION FOR PROVIDING CLOUD-LED, BEST SUSTAINABLE SOLUTIONS,
+                                VALUE,
+                                QUALITY, TRAINING AND SUPPORT ON TIME, ON BUDGET, AND ON TARGET”</strong></i>
+                        <br />
+                        <br />
+                        I hope this provides you with a few reasons to get to know SCIENOVELX better. Whether you are a
+                        potential customer, a small business partner, or a future employee, we look forward to finding
+                        out how we can work together to bring service to life.
+                        I personally have always believed that in order to have a beautiful wide-ranging relationship
+                        one must have one’s own ethics and commitments in fact, and that is why it is always our duty to
+                        do so. And also I have always believed that when it comes to defining and communicating an
+                        organization’s vision and goals, conciseness is a virtue.
+                        <br />
+                        <i style=" text-align: right; width: 100%; display: block;"><strong>- Subhajit Ghosh (CEO & Founder)</strong></i>
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -796,53 +800,16 @@ require('includes/navbar.php');
             <div class="col-lg-6">
                 <div class="about-content mr-20">
                     <div class="section-title">
-                        <!-- <span class="sp-color2">15 Years f Experience</span> -->
-                        <h2 class="text-center" style="font-size: 44px !important;">Book a Free Consultation</h2>
-                        <h5 class="text-center"  style="color: #0071dc;margin-top: 26px !important;font-size: 30px;text-transform: uppercase;width: 80%;font-weight: 900;margin: auto;letter-spacing: 1px;line-height: 2.7rem;">
+                        <h2 class="text-center free-c">Book a Free Consultation</h2>
+                        <h5 class="text-center free-c-p" data-aos="zoom-in">
                             When Innovation Finds You, Find Us.</h5>
-                        <!-- <div class="calendly-img">
-                            <img src="assets/images/calendly.png" alt="">
-                        </div> -->
-                        <!-- <p>
-                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-                            sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
-                            accumsan ipsum velit nam nec tellus a odio tincidunt auctor.
-                        </p> -->
                     </div>
-                    <!-- <div class="row">
-                        <div class="col-lg-6 col-6">
-                            <div class="about-content-card">
-                                <i class="flaticon-practice"></i>
-                                <h3>Experience</h3>
-                                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-6">
-                            <div class="about-content-card">
-                                <i class="flaticon-help"></i>
-                                <h3>Quick Support</h3>
-                                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
 
             </div>
             <div class="col-lg-6" id="calendy" style="box-shadow: 0 0 14px #a0a0a0;border-radius: 12px;">
-                <!-- <div class="about-img">
-                    <img src="assets/images/about/about-img1.jpg" alt="About Images">
-                    <div class="sub-content">
-                        <img src="assets/images/about/about-img2.jpg" alt="About Images">
-                        <div class="content">
-                            <h3>4.5k</h3>
-                            <span>Satisfied Clients</span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- Calendly inline widget begin -->
                 <div class="calendly-inline-widget" data-url="https://calendly.com/subhajit-scienovelx/30min" style="min-width:320px;height:630px;"></div>
                 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-                <!-- Calendly inline widget end -->
             </div>
         </div>
     </div>
@@ -974,6 +941,6 @@ require('includes/footer.php');
 
 <script>
     AOS.init({
-      duration: 500,
+        duration: 500,
     });
-  </script>
+</script>
